@@ -168,7 +168,10 @@
 	padding-bottom: 65px;
 	padding-top: 190px;
 }
-
+.hero-area.type-2 {
+	height: 580px;
+	padding-bottom: 10px;
+}
 
 
 
@@ -377,6 +380,10 @@
     .testimonial-area {
         padding-top: 45px;
         padding-bottom: 45px;
+    }
+    .hero-area.type-2 {
+      height: 480px;
+      padding-bottom: 10px;
     }
   }
 
