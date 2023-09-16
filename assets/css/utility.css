@@ -1,0 +1,141 @@
+/* ======================================
+POSITION
+======================================== */
+.relative {
+    position: relative;
+  }
+.absolute {
+    position: absolute;
+  }
+.fixed {
+    position: fixed;
+  }
+.top_0 {
+    top: 0;
+}
+.end_0 {
+    right: 0;
+}
+.bottom_0 {
+    bottom: 0;
+}
+.start_0 {
+    left: 0;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .inline_flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+
+  .items_start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .items_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .justify_center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .justify_between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .justify_end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .block {
+    display: block;
+  }
+  .inline_block {
+    display: inline-block;
+  }
+/* ======================================
+ALIGN
+======================================== */
+.text_start {
+    text-align: left;
+}
+.text_center {
+    text-align: center;
+}
+.text_end {
+    text-align: right;
+}
+.mx_auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* ======================================
+WIDTH
+======================================== */
+.w_full {
+    width: 100%;
+}
+.w_max_full {
+    max-width: 100%;
+}
+.w_auto {
+    width: auto;
+}
+.h_full {
+    height: 100%;
+}
+/* ======================================
+TEXT STYLE
+======================================== */
+.uppercase {
+    text-transform: uppercase;
+  }
+.lowercase {
+    text-transform: lowercase;
+}
+.cursor_pointer {
+    cursor: pointer;
+  }
+/* ======================================
+BACKGROUND
+======================================== */
+.bg_transparent {
+    background-color: transparent;
+}
+.bg_white {
+    background-color: #fff;
+}
+/* ======================================
+LAYER CONTROL
+======================================== */
+.z_0 {
+    z-index: 0;
+  }.z_1 {
+    z-index: 1;
+  }
+  .z_10 {
+    z-index: 50;
+  }
+  .z_50 {
+    z-index: 50;
+  }
+  .z_60 {
+    z-index: 60;
+  }
+  .z_90 {
+    z-index: 90;
+  }
+  .z_100 {
+    z-index: 100;
+  }
