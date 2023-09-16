@@ -8,13 +8,18 @@
   <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
   <meta name="og:type" content="website" />
   <meta name="twitter:card" content="photo" />
+  <!-- Plugin Css -->
+  <link rel="stylesheet" href="assets/css/splide.min.css">
+
+  <!-- Main Css -->
   <link rel="stylesheet" type="text/css" href="assets/css/utility.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
 </head>
 
 <body>
   <!-- Mobile menu markup start -->
-  <div class="mobile-menu-wrapper">
+  <div class="mobile-menu-wrapper" id="mobile-menu">
     <span class="close-mobile-menu">
       <?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -36,65 +41,66 @@
   <!-- Mobile menu markup end -->
 
   <!-- <div class="page-outer mx_auto"> -->
-  <div class="header-top flex items_center justify_between absolute top_0 start_0 end_0 w_full z_90">
-    <ul class="social_list flex items_center">
-      <li>
-        <a class="inline_block" href="https://twitter.com/SET_Recruitment" target="_blank">
-          <img class="vector" src="assets/img/vector-6.svg" alt="Vector"> </a>
-      </li>
-      <li>
-        <a class="inline_block" href="https://www.facebook.com/setrecruitment" target="_blank"><img class="link"
-            src="assets/img/group-80@2x.png" alt="Group 80"> </a>
-      </li>
-      <li>
-        <a class="inline_block" href="https://www.linkedin.com/company/11492246" target="_blank"><img class="link"
-            src="assets/img/g5891@2x.png" alt="g5891"> </a>
-      </li>
-      <li>
-        <a class="inline_block" href="https://www.instagram.com/set_recruitment/" target="_blank">
-          <img class="group-82" src="assets/img/group-82@2x.png" alt="Group 82">
-        </a>
-      </li>
-    </ul>
+  <div class="header-top absolute top_0 start_0 end_0 w_full z_90">
+    <div class="container">
+      <div class="header-top-inner flex items_center justify_between">
+        <ul class="social_list flex items_center">
+          <li>
+            <a class="inline_block" href="https://twitter.com/SET_Recruitment" target="_blank">
+              <img class="vector" src="assets/img/twitter.svg" alt="twitter"> </a>
+          </li>
+          <li>
+            <a class="inline_block" href="https://www.facebook.com/setrecruitment" target="_blank"><img class="link"
+                src="assets/img/facebook.svg" alt="facebook"> </a>
+          </li>
+          <li>
+            <a class="inline_block" href="https://www.linkedin.com/company/11492246" target="_blank"><img class="link"
+                src="assets/img/linkedin.svg" alt="linkedin"> </a>
+          </li>
+          <li>
+            <a class="inline_block" href="https://www.instagram.com/set_recruitment/" target="_blank">
+              <img class="group-82" src="assets/img/instagram.svg" alt="instagram">
+            </a>
+          </li>
+        </ul>
 
-    <ul class="telephones flex items_center justify_end">
-      <li>
-        <a href="tel:02920670832" target="_blank"
-          class="helveticaneue-regular-normal-white-16px inline_flex items_center">
-          <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-            <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
-            Cardiff
-          </strong>
-          02920 670 832
-        </a>
-      </li>
-      <li>
-        <a href="tel:01443 230 222" target="_blank"
-          class="helveticaneue-regular-normal-white-16px inline_flex items_center">
-          <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-            <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
-            Llantrisant
-          </strong>
-          01443 230 222
-        </a>
-      </li>
-      <li>
-        <a href="tel:01792 342 948" target="_blank"
-          class="helveticaneue-regular-normal-white-16px inline_flex items_center">
-          <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-            <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
-            Swansea
-          </strong>
-          01792 342 948
-        </a>
-      </li>
-    </ul>
+        <ul class="telephones flex items_center justify_end">
+          <li>
+            <a href="tel:02920670832" target="_blank" class=" inline_flex items_center">
+              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
+                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
+                Cardiff
+              </strong>
+              02920 670 832
+            </a>
+          </li>
+          <li>
+            <a href="tel:01443 230 222" target="_blank" class=" inline_flex items_center">
+              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
+                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
+                Llantrisant
+              </strong>
+              01443 230 222
+            </a>
+          </li>
+          <li>
+            <a href="tel:01792 342 948" target="_blank" class=" inline_flex items_center">
+              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
+                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal">
+                Swansea
+              </strong>
+              01792 342 948
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
   <header class="header-area absolute z_90 w_full h_full start_0 end_0">
     <div class="container">
       <div class="header-content-grid bg_white">
-        <a href="#" class="logo inline_block"><img class="set-recruitment-colour-2"
-            src="assets/img/set-recruitment-colour-2.png" alt="SET Recruitment Colour 2"></a>
+        <a href="#" class="logo inline_block"><img class="set-recruitment-colour-2" src="assets/img/logo.svg"
+            alt="SET Recruitment Colour 2"></a>
 
         <div class="header-right">
           <ul class="main-menu flex items_center justify_end helveticaneue-regular-normal-black-16px">
@@ -106,7 +112,7 @@
             <li><a href="testimonial.html">Testimonials </a></li>
             <li><a href="contact.html" class="box-btn">Contact Us</a></li>
           </ul>
-          <button class="toggle-bar">
+          <button class="toggle-bar" id="toggle-bar">
             <?xml version="1.0" ?><svg fill="none" height="20" viewBox="0 0 20 20" width="20"
               xmlns="http://www.w3.org/2000/svg">
               <path clip-rule="evenodd"
@@ -131,19 +137,18 @@
       Your browser does not support the video tag.
     </video>
     <!-- <img src="assets/img/hero-shape-1.png" class="hero-shape-1 absolute bottom_0 z_1"> -->
-    <div class="container relative z_1">
-      <div class="hero-content-outer">
-        <div class="hero-content-inner relative">
+    <div class="container relative z_1 h_full">
+      <div class="hero-content-outer h_full">
+        <div class="hero-content-inner relative h_full">
           <div class="gv-blk absolute">
-            <img class="welsh_-government_logo-2 welsh_-government_logo" src="assets/img/welsh-government-logo-1.png"
-              alt="Welsh_Government_logo 2">
+            <img src="assets/img/government-logo.svg" alt="Government_logo">
             <p>SET is a Registered <br>
               Framework Agency</p>
           </div>
           <div class="hro-inner-text">
             <h1 class="we-are-set-recruitment"><span class="sub block"> WE ARE</span> SET <br>
               Recruitment</h1>
-            <p class="helveticaneue-regular-normal-coconut-16px"> Elevating careers, the right way. SET Recruitment
+            <p class=""> Elevating careers, the right way. SET Recruitment
               are
               a trusted Welsh Government Framework Agency. </p>
           </div>
@@ -167,7 +172,7 @@
               possible
               temporary staff, backed with an excellent service that is available 24 hours a day, 7 days a week, 365
               days a year.</p>
-            <a href="#" class="box-btn normal helveticaneue-regular-normal-white-16px">Contact Us</a>
+            <a href="#" class="box-btn normal ">Contact Us</a>
           </div>
           <div class="highlight-right relative z_1 flex items_end justify_center">
             <img class="image-1 image" src="assets/img/image-1.png" alt="image 1">
@@ -211,16 +216,332 @@
           </ul>
         </div>
       </div>
+    </div> <!-- ./marquee-area -->
+
+    <div class="partners-area">
+      <div class="container">
+        <div class="partners-wrapper">
+          <h3 class="secondary-title">Proud business partners</h3>
+          <div class="brand-images">
+            <img src="assets/img/Welsh_Government_logo 1.png" alt="">
+            <img src="assets/img/REC CorporateMember-dark 1.png" alt="">
+            <img src="assets/img/DCC English 1.png" alt="">
+            <img src="assets/img/JobsAware 1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div> <!-- ./partners-area -->
+
+    <div class="process-area relative">
+      <svg class="process-trans absolute " width="1366" height="145" viewBox="0 0 1366 145" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 32.0208H1366V145H0V32.0208Z" fill="#522D6E" />
+        <path
+          d="M1366 33.2292C1366 51.5811 1060.21 66.4583 683 66.4583C305.79 66.4583 0 51.5811 0 33.2292C0 14.8772 305.79 0 683 0C1060.21 0 1366 14.8772 1366 33.2292Z"
+          fill="#522D6E" />
+      </svg>
+      <div class="container relative z_1">
+        <div class="section-title text_center">
+          <h2 class="primary-title">Our Process</h2>
+        </div>
+        <div class="process-g-wrapper">
+          <div class="single-process">
+            <div class="process-head">
+              <div class="icon">
+                <img src="assets/img/p-1.svg" alt="" class="img_fluid">
+              </div>
+              <h5>Start <br> Application</h5>
+            </div>
+            <ul class="process-list">
+              <li>Leave Contact Information</li>
+              <li>Speak to a member of our Onboarding Team</li>
+              <li>Receive Log In details for a state of the art onboarding system</li>
+            </ul>
+          </div>
+          <div class="single-process">
+            <div class="process-head">
+              <div class="icon">
+                <img src="assets/img/p-2.svg" alt="" class="img_fluid">
+              </div>
+              <h5>Complete <br> Compliance <br> Process</h5>
+            </div>
+            <ul class="process-list">
+              <li>Upload required information via the easy to use portal</li>
+              <li>Attend a Welcome Meeting with a member of our onboarding team</li>
+              <li>Reach 100% compliance and become clear to work</li>
+            </ul>
+          </div>
+          <div class="single-process">
+            <div class="process-head">
+              <div class="icon">
+                <img src="assets/img/p-3.svg" alt="" class="img_fluid">
+              </div>
+              <h5>Begin Work <br>
+                & Ongoing <br> Support</h5>
+            </div>
+            <ul class="process-list">
+              <li>Meet your personal Account Manager</li>
+              <li>You select a suitable placement from those on offer</li>
+              <li>Receive advice and ongoing professional development from our candidate care team</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!-- ./process-area -->
+
+    <div class="supply-area relative overflow_hidden">
+      <img src="assets/img/supply-trans-1.svg" alt="" class="shape-1 start_0 top_0 absolute h_full">
+      <img src="assets/img/supply-trans-2.svg" alt="" class="shape-2 end_0 top_0 absolute h_full">
+      <div class="container relative z_1">
+        <div class="supply-wrapper relative overflow_hidden">
+          <div class="help-part relative z_1">
+            <h3 class=" secondary-title f_days_one">We Help</h3>
+            <ul class="help-list">
+              <li>
+                <div class="icon">
+                  <img src="assets/img/help-1.svg" alt="" class="img_fluid">
+                </div>
+                <div class="help-content">
+                  <h6>Temporary</h6>
+                  <p>We assist candidates find employment whilst maintaining their work-life balance</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <img src="assets/img/help-1.svg" alt="" class="img_fluid">
+                </div>
+                <div class="help-content">
+                  <h6>Part Time</h6>
+                  <p>We reintegrate candidates back into employment</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <img src="assets/img/help-1.svg" alt="" class="img_fluid">
+                </div>
+                <div class="help-content">
+                  <h6>Full Time</h6>
+                  <p>We aid candidates find full time positions</p>
+                </div>
+              </li>
+            </ul>
+            <div class="image-2-wrap">
+              <img class="img_fluid lgo" src="assets/img/logo-3.svg" alt="">
+              <img class="img_fluid img-2" src="assets/img/image-2.png" alt="">
+            </div>
+          </div>
+          <div class="outer-for-responsive">
+            <div class="supply-part relative z_1">
+              <h3 class=" secondary-title f_days_one">We Help</h3>
+              <ul class="process-list plc-2">
+                <li>Cardiff</li>
+                <li>Newport</li>
+                <li>Rhondda Cynon Taff</li>
+                <li>Vale of Glamorgan</li>
+                <li>Swansea</li>
+                <li>Neath</li>
+                <li>Bridgend</li>
+                <li>Caerphilly</li>
+                <li>Torfaen</li>
+              </ul>
+            </div>
+            <div class="map relative z_1">
+              <img class="img_fluid" src="assets/img/map.png" alt="">
+            </div>
+          </div>
+          <img class="trans-traingle absolute" src="assets/img/purple-overlay.png" alt="">
+        </div>
+      </div>
+    </div> <!-- ./supply-area -->
+
+    <div class="recruitment-area relative overflow_hidden">
+      <div class="rq-bg absolute z_0 w_full h_full start_0 end_0 top_0"
+        style="background-image: url(assets/img/recruitment-bg.webp);"></div>
+      <svg class="process-trans absolute " width="1366" height="145" viewBox="0 0 1366 145" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 32.0208H1366V145H0V32.0208Z" fill="#522D6E" />
+        <path
+          d="M1366 33.2292C1366 51.5811 1060.21 66.4583 683 66.4583C305.79 66.4583 0 51.5811 0 33.2292C0 14.8772 305.79 0 683 0C1060.21 0 1366 14.8772 1366 33.2292Z"
+          fill="#522D6E" />
+      </svg>
+      <div class="container relative z_1">
+        <div class="recruitment-g-wrapper">
+          <div class="recruitment-single">
+            <div class="recruitment-lgo">
+              <img class="img_fluid" src="assets/img/r-1.svg" alt="">
+            </div>
+            <h3 class="secondary-title f_days_one">Healthcare Recruitment</h3>
+            <p>For more information or roles in healthcare, please visit MPS Healthcare using the link below</p>
+            <a href="#" class="box-btn">MPS Healthcare</a>
+          </div>
+          <div class="recruitment-single">
+            <div class="recruitment-lgo">
+              <img class="img_fluid" src="assets/img/r-2.svg" alt="">
+            </div>
+            <h3 class="secondary-title f_days_one">Network Recruitment</h3>
+            <p>For more information on our parent company, NRW, please click the link below</p>
+            <a href="#" class="box-btn">Network Recruitment Wales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-area">
+      <div class="container mx_auto">
+        <div class="section-title text_center">
+          <h2 class="primary-title">Reviews</h2>
+        </div>
+        <div class="res-purpose">
+          <div class="avg-rating-wrapper text_center">
+            <div class="avg-rt">
+              <h6>Average Customer Rating: <div class="rating inline_flex items_center">
+                  <img src="assets/img/star.svg" alt="">
+                  <img src="assets/img/star.svg" alt="">
+                  <img src="assets/img/star.svg" alt="">
+                  <img src="assets/img/star.svg" alt="">
+                  <img src="assets/img/star.svg" alt="">
+                </div><span><strong>4.7</strong>/5</span></h6>
+            </div>
+            <p><span>Independent Service Rating</span> based on <span>626</span> verified reviews. <a href="">Read all
+                reviews</a></p>
+          </div>
+          <div id="testimonialCarousel" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <div class="rating flex items_center">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                      <img src="assets/img/star.svg" alt="">
+                    </div>
+                    <h6>Superb product; excellent service. I loved it</h6>
+                    <p>
+                      The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.
+                    </p>
+
+                    <div class="date-info">
+                      <p>Trusted Customer - Wednesday, 26 August 2020</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
   <footer class="footer-area">
     <div class="ft-top-zone relative">
       <img class="ft-trans left absolute" src="assets/img/11-9.png" alt="11 9">
@@ -231,7 +552,7 @@
         </a>
         <div class="footer-top-part-two">
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">SET</h4>
+            <h4>SET</h4>
             <ul class="ft-links">
               <li><a href="#"> About Us</a></li>
               <li><a href="#">Team</a></li>
@@ -241,7 +562,7 @@
             </ul>
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Pages</h4>
+            <h4>Pages</h4>
             <ul class="ft-links">
               <li><a href="#">Site Map</a></li>
               <li><a href="#">Privacy Policy</a></li>
@@ -250,14 +571,14 @@
             </ul>
           </div>
           <div class="footer-widget partners">
-            <h4 class="daysone-normal-white-18px">Partners</h4>
+            <h4>Partners</h4>
             <ul class="ft-links terms flex items_center">
               <li><a href="#">MPS Healthcare</a></li>
               <li><a href="#">NRW Recruitment</a></li>
             </ul>
           </div>
           <div class="footer-widget email">
-            <h4 class="daysone-normal-white-18px">Email</h4>
+            <h4>Email</h4>
             <ul class="ft-links emails">
               <li>
                 <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
@@ -268,7 +589,7 @@
 
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Swansea Branch</h4>
+            <h4>Swansea Branch</h4>
             <div class="address">
               <p>Canolfan Gorseinon Centre <br>
                 Gorseinon <br>
@@ -278,7 +599,7 @@
             </div>
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Llantrisant Branch</h4>
+            <h4>Llantrisant Branch</h4>
             <div class="address">
               <p>Unit 1 & 2 Magden Park <br>
                 Llantrisant <br>
@@ -289,7 +610,7 @@
           </div>
 
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Cardiff Branch</h4>
+            <h4>Cardiff Branch</h4>
             <div class="address">
               <p>3rd Floor <br>
                 Castlebridge 2 <br>
@@ -299,34 +620,34 @@
             </div>
           </div>
           <div class="footer-widget form">
-            <h4 class="daysone-normal-white-18px">Follow Us</h4>
+            <h4>Follow Us</h4>
             <ul class="social_list footer flex items_center">
               <li>
                 <a class="inline_block" href="https://twitter.com/SET_Recruitment" target="_blank">
-                  <img class="vector" src="assets/img/vector-6.svg" alt="Vector"> </a>
+                  <img class="vector" src="assets/img/twitter.svg" alt="twitter"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.facebook.com/setrecruitment" target="_blank"><img class="link"
-                    src="assets/img/group-80@2x.png" alt="Group 80"> </a>
+                    src="assets/img/facebook.svg" alt="facebook"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.linkedin.com/company/11492246" target="_blank"><img
-                    class="link" src="assets/img/g5891@2x.png" alt="g5891"> </a>
+                    class="link" src="assets/img/linkedin.svg" alt="linkedin"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.instagram.com/set_recruitment/" target="_blank">
-                  <img class="group-82" src="assets/img/group-82@2x.png" alt="Group 82">
+                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram">
                 </a>
               </li>
             </ul>
           </div>
-
-
-
+          <div class="integration-badge">
+            <img src="assets/img/integration-badge.png" alt="" class="img_fluid">
+          </div>
         </div>
         <div class="footer-top-part">
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">SET</h4>
+            <h4>SET</h4>
             <ul class="ft-links">
               <li><a href="#"> About Us</a></li>
               <li><a href="#">Team</a></li>
@@ -336,7 +657,7 @@
             </ul>
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Llantrisant Branch</h4>
+            <h4>Llantrisant Branch</h4>
             <div class="address">
               <p>Unit 1 & 2 Magden Park <br>
                 Llantrisant <br>
@@ -346,7 +667,7 @@
             </div>
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Swansea Branch</h4>
+            <h4>Swansea Branch</h4>
             <div class="address">
               <p>Canolfan Gorseinon Centre <br>
                 Gorseinon <br>
@@ -356,7 +677,7 @@
             </div>
           </div>
           <div class="footer-widget">
-            <h4 class="daysone-normal-white-18px">Cardiff Branch</h4>
+            <h4>Cardiff Branch</h4>
             <div class="address">
               <p>3rd Floor <br>
                 Castlebridge 2 <br>
@@ -366,33 +687,36 @@
             </div>
           </div>
           <div class="footer-widget form">
-            <h4 class="daysone-normal-white-18px"> Can’t find what your looking for? </h4>
+            <div class="integration-badge">
+              <img src="assets/img/integration-badge.png" alt="" class="img_fluid">
+            </div>
+            <h4> Can’t find what your looking for? </h4>
             <form class="search relative">
               <input type="text" class="w_full bg-white">
               <button class="absolute right-0" type="submit">Search</button>
             </form>
-            <ul class="social_list footer flex items_center">
+            <ul class="social_list footer flex items_center justify_end">
               <li>
-                <a class="inline_block" href="https://twitter.com/SET_Recruitment" target="_blank">
-                  <img class="vector" src="assets/img/vector-6.svg" alt="Vector"> </a>
+                <a class=" inline_block" href="https://twitter.com/SET_Recruitment" target="_blank">
+                  <img class="vector" src="assets/img/twitter.svg" alt="twitter"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.facebook.com/setrecruitment" target="_blank"><img class="link"
-                    src="assets/img/group-80@2x.png" alt="Group 80"> </a>
+                    src="assets/img/facebook.svg" alt="facebook"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.linkedin.com/company/11492246" target="_blank"><img
-                    class="link" src="assets/img/g5891@2x.png" alt="g5891"> </a>
+                    class="link" src="assets/img/linkedin.svg" alt="linkedin"> </a>
               </li>
               <li>
                 <a class="inline_block" href="https://www.instagram.com/set_recruitment/" target="_blank">
-                  <img class="group-82" src="assets/img/group-82@2x.png" alt="Group 82">
+                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram">
                 </a>
               </li>
             </ul>
           </div>
           <div class="footer-widget email">
-            <h4 class="daysone-normal-white-18px">Email</h4>
+            <h4>Email</h4>
             <ul class="ft-links emails">
               <li>
                 <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
@@ -403,7 +727,7 @@
 
           </div>
           <div class="footer-widget partners">
-            <h4 class="daysone-normal-white-18px">Partners</h4>
+            <h4>Partners</h4>
             <ul class="ft-links terms flex items_center">
               <li><a href="#">MPS Healthcare</a></li>
               <li><a href="#">NRW Recruitment</a></li>
@@ -423,7 +747,7 @@
         </ul>
 
         <div class="copyright-text">
-          <p class="inter-regular-normal-black-14px">
+          <p>
             Copyright Network Recruitment Wales 2023 - Website by <a href="#" class="inline_block">The Web Designer
               Cardiff</a>
           </p>
@@ -434,8 +758,12 @@
   <!-- </div> -->
 
   <!-- All JS Here -->
+  <!-- Plugin JS -->
   <script src="assets/js/vanilla-marquee.js"></script>
   <script src="assets/js/counterUp.js"></script>
+  <script src="assets/js/splide.min.js"></script>
+
+  <!-- Main JS  -->
   <script src="assets/js/main.js"></script>
 
   <script>
@@ -443,7 +771,7 @@
       pauseOnHover: true,
       duplicated: true,
       gap: 0,
-      speed: 100,
+      speed: 70,
     });
   </script>
   <!-- Counter JS Activation -->

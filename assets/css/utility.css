@@ -64,6 +64,9 @@ POSITION
   .inline_block {
     display: inline-block;
   }
+  .overflow_hidden {
+    overflow: hidden;
+  }
 /* ======================================
 ALIGN
 ======================================== */
@@ -94,6 +97,10 @@ WIDTH
 }
 .h_full {
     height: 100%;
+}
+.img_fluid {
+  max-width: 100%;
+  height: auto;
 }
 /* ======================================
 TEXT STYLE
