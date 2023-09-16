@@ -271,7 +271,34 @@ ul, ol {
 }
 /* highlight-area css end */
 
-
+/* marquee-area css start */
+.marquee-area {
+	background-color: var(--primary700-main);
+	height: 64px;
+	display: flex;
+	align-items: center;
+}
+.marquee-list li {
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+  padding-left: 31px;
+  margin-right: 48px;
+}
+.marquee-list li::before {
+  content: "";
+  background-image: url(../img/ok-white.svg);
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* marquee-area css end */
 
 /* footer css start */
 .ft-top-zone {
