@@ -385,6 +385,16 @@
       height: 480px;
       padding-bottom: 10px;
     }
+   .trans-traingle {
+      display: none;
+    }
+    .trans-traingle-mobile {
+      width: 90%;
+      z-index: -1;
+      bottom: -1px;
+      left: -15px;
+    }
+
   }
 
 
@@ -393,6 +403,9 @@
   @media screen and (min-width: 768px) {
     .footer-top-part-two {
         display: none;
+    }
+    .trans-traingle-mobile {
+      display: none;
     }
   }
   @media screen and (min-width: 992px) {
