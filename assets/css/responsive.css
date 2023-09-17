@@ -107,6 +107,15 @@
     .value-g-wrapper {
       grid-template-columns: 1fr 1fr;
     }
+    .team-rw::before,
+    .team-rw .team-member::before {
+      content: none !important;
+    }
+    .team-area {
+      margin-top: 0;
+      padding-bottom: 35px;
+    }
+
   }
 
 @media screen and (max-width: 991px) {
@@ -196,9 +205,18 @@
 .hero-bottom-wrapper .cmn-content .secondary-title {
 	margin-bottom: 15px;
 }
-
-
-
+.team-area .team-shape-1 {
+  width: 150px;
+  object-fit: cover;
+}
+.team-outer-wrap .team-rw:not(:last-child) {
+	margin-bottom: 0;
+}.team-member {
+	margin-bottom: 24px;
+}
+.team-area .team-shape-1 {
+  display: none;
+}
 
 }
 
@@ -461,5 +479,9 @@
 @media screen and (min-width: 1280px) {
     .video_bg {
         width: calc(100% + 3px);
+    }
+    .team-area .team-shape-1 {
+      width: 290px;
+      object-fit: cover;
     }
 }

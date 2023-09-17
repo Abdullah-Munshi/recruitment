@@ -615,6 +615,9 @@ ul, ol {
 .avg-rating-wrapper p a {
   color: var(--primary700-main);
 }
+.shadow_top {
+box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+}
 /* testimonial-area css end */
 
 /* footer css start */
@@ -853,7 +856,7 @@ ul, ol {
   }
 /* mobile menu css end */
 
-/* team page css start */
+/* testimonial page css start */
 .hro_bg {
 	width: 100%;
 	height: 100%;
@@ -884,7 +887,7 @@ ul, ol {
 	padding-top: 30px;
 	padding-bottom: 165px;
 }
-/* team page css end */
+/* testimonial page css end */
 
 /* about page css start */
 
@@ -965,6 +968,93 @@ ul, ol {
 	padding-bottom: 80px;
 }
 /* about page css end */
+
+/* team page css start */
+.team-member {
+	border-radius: 5px;
+	background: #FFF;
+	box-shadow: 0px 5px 15px 0px #A4A4A4;
+	padding: 20px;
+	text-align: center;
+	margin-top: 75px;
+	padding-top: 0;
+	position: relative;
+	width: 270px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+.team-member::before {
+	position: absolute;
+	width: 0px;
+	height: 40px;
+	border-right: 2px dashed var(--primary700-main);
+	content: "";
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: calc(100% + 80px);
+}
+.team-outer-wrap .team-rw:not(:last-child) {
+	margin-bottom: 55px;
+}
+.team-rw {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+	position: relative;
+	justify-content: center;
+}
+.team-rw::before {
+	position: absolute;
+	top: -45px;
+	width: 560px;
+	height: 0px;
+	border-top: 2px dashed var(--primary700-main);
+	content: "";
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team-rw.four::before {
+	width: 870px;
+}
+.thumbnail img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #9393D1;
+  display: block;
+}
+.thumbnail {
+  text-align: center;
+  margin-top: -75px;
+  margin-bottom: 15px;
+}
+.team-member h5 {
+  font-size: 20px;
+  font-family: var(--ff-days-one);
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+.team-member p {
+  color: var(--primary700-main);
+  font-size: 14px;
+  font-family: var(--helvetica-medium);
+}
+
+.team-rw.top:before, .team-rw.bottom::before {
+  content: none;
+}
+.team-area {
+  margin-top: 80px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.type-2 .hro-inner-text {
+	max-width: 600px;
+}
+/* team page css end */
 
 
 
