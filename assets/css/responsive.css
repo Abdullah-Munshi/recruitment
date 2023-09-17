@@ -217,6 +217,24 @@
 .team-area .team-shape-1 {
   display: none;
 }
+.hero-bottom-wrapper.contact {
+	padding: 0;
+	display: block;
+}
+.contact-right {
+	background-color: var(--primary700-main);
+	padding: 24px;
+}.terms-check-wrap p, .terms-check-wrap p a {
+	color: #fff;
+}
+.hero-bottom-wrapper .box-btn {
+	background-color: #fff;
+	color: var(--primary700-main) !important;
+}
+.contact-left {
+	padding: 30px;
+}
+
 
 }
 
