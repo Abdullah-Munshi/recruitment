@@ -1053,7 +1053,7 @@ box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
 	padding-top: 80px;
 }
 .type-2 .hro-inner-text {
-	max-width: 600px;
+	max-width: 645px;
 }
 /* team page css end */
 
@@ -1247,6 +1247,22 @@ form .box-btn {
 
 
 /* contact page css end */
+
+/* terms-policy page css start */
+.tp-blk p {
+  line-height: 1.5;
+  font-size: 13px;
+  font-family: var(--ff-days-one);
+  font-weight: 400;
+}
+.tp-blk p br {
+  margin-bottom: 10px;
+}
+.terms-policy-area {
+	padding: 50px 0;
+	padding-bottom: 60px;
+}
+/* terms-policy page css end */
 
 
 
