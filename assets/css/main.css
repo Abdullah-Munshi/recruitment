@@ -1056,6 +1056,52 @@ box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
 }
 /* team page css end */
 
+/* clients page css start */
+
+.hero-bottom-wrapper.normal {
+  margin-top: 70px;
+}
+.cmn-list li {
+  font-family: var(--helvetica-medium);
+  font-size: 16px;
+  margin-bottom: 11px;
+  list-style: disc;
+  padding-left: ;
+  margin-left: 15px;
+}
+.cmn-list {
+  margin-bottom: 30px;
+}
+.cmn-content p:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.hero-bottom-wrapper.bg_primary {
+  background-color: var(--primary700-main);
+}
+.bg_primary .cmn-content p, .bg_primary .cmn-content .secondary-title {
+  color: #fff;
+}
+.box-btn.bg_white {
+  background-color: #fff;
+  color: var(--primary700-main) !important;
+}
+.hero-bottom-wrapper .box-btn {
+	font-family: var(--helvetica-regular);
+}
+
+.normal .secondary-title {
+  font-family: var(--ff-days-one);
+  margin-bottom: 28px !important;
+}
+.normal p {
+  color: #000;
+}
+.normal.mb_80 {
+	margin-bottom: 70px;
+}
+/* clients page css end */
+
 
 
 

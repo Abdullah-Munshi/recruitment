@@ -451,6 +451,15 @@
       padding-top: 70px;
       padding-bottom: 70px;
     }
+    .hero-bottom-wrapper.normal {
+      margin-top: 40px;
+    }
+    .hero-bottom-wrapper.reverse {
+      flex-direction: column;
+    }
+    .normal.mb_80 {
+      margin-bottom: 50px;
+    }
 
   }
 
