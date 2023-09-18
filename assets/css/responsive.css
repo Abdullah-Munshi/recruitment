@@ -1,38 +1,39 @@
 @media screen and (max-width: 1800px) {
-    .video_bg {
-        object-position: center -6vw;
-    }
+  .video_bg {
+    object-position: center -12vw;
+  }
 }
 @media screen and (max-width: 1750px) {
-    .video_bg {
-        object-position: center -5vw;
-    }
+  .video_bg {
+    object-position: center -10vw;
+  }
 }
 @media screen and (max-width: 1690px) {
-    .video_bg {
-        object-position: center -2vw;
-    }
+  .video_bg {
+    object-position: center -9vw;
+  }
 }
 @media screen and (max-width: 1580px) {
-    .video_bg {
-        object-position: center top;
-    }
+  .video_bg {
+    object-position: center -100px;
+  }
 }
 @media screen and (max-width: 1500px) {
-    .hero-area {
-        height: 715px;
-    }
     .process-trans {
         bottom: -5px;
     }
 }
 @media screen and (max-width: 1350px) {
+  .video_bg {
+    object-position: center top;
+  }
     .hero-area {
         height: 650px;
     }
    
 }
 @media screen and (max-width: 1300px) {
+
     .hero-area {
         height: 640px;
     }

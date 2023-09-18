@@ -141,8 +141,8 @@ ul, ol {
 .hero-area {
 	padding-top: 154px;
 	padding-bottom: 100px;
-	height: 780px;
-  overflow: hidden;
+	height: 650px;
+	overflow: hidden;
 }
 
 .social_list li {
@@ -174,12 +174,12 @@ ul, ol {
 .video_bg {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
-	    -ms-transform: translateX(-50%);
-	        transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
 	top: 0;
 	width: calc(100% + 2px);
-	-o-object-position: center -160px;
-	   object-position: center -160px;
+	-o-object-position: center -255px;
+	object-position: center -255px;
 }
 .gv-blk.absolute img {
   background: #fff;
