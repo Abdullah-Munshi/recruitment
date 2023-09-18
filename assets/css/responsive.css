@@ -193,8 +193,12 @@
 	padding-top: 190px;
 }
 .hero-area.type-2 {
-	height: 580px;
-	padding-bottom: 10px;
+	height: 530px;
+	padding-bottom: 150px;
+}
+.type-2 .hero-content-inner {
+	min-height: auto;
+	padding-bottom: 40px;
 }
 .cmn-content p {
 	font-size: 15px;
@@ -443,8 +447,8 @@
         padding-bottom: 45px;
     }
     .hero-area.type-2 {
-      height: 480px;
-      padding-bottom: 10px;
+      height: 450px;
+      padding-bottom: 100px;
     }
    .trans-traingle {
       display: none;
