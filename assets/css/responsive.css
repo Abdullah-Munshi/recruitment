@@ -485,6 +485,13 @@
     .hero-bottom-area.pb-80 {
       padding-bottom: 65px;
     }
+    .sec-img .gv {
+      width: 80px;
+      height: 80px !important;
+      object-fit: unset !important;
+      left: 16px;
+      bottom: 16px;
+    }
 
   }
 
