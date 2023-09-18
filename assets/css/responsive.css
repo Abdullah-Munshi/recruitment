@@ -482,6 +482,9 @@
       padding: 30px 0;
       padding-bottom: 50px;
     }
+    .hero-bottom-area.pb-80 {
+      padding-bottom: 65px;
+    }
 
   }
 

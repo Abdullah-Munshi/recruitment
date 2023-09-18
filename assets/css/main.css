@@ -1252,6 +1252,20 @@ ul, ol {
 .mb-80 {
 	margin-bottom: 70px;
 }
+
+.cmn-list.primary li {
+  color: var(--primary700-main);
+}
+.sec-img .gv {
+  width: 100px;
+  height: 100px !important;
+  object-fit: unset !important;
+  left: 24px;
+  bottom: 24px;
+}
+.hero-bottom-area.pb-80 {
+	padding-bottom: 80px;
+}
 /* clients page css end */
 
 /* contact page css start */
