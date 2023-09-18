@@ -1003,15 +1003,15 @@ ul, ol {
 	width: 100%;
 }
 .hero-area.type-2 {
-	height: 670px;
+	height: 560px;
 	padding-bottom: 130px;
 }
 .type-2 .hero-content-inner {
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	padding-top: 30px;
-	padding-bottom: 165px;
+	padding-bottom: 65px;
 }
 /* testimonial page css end */
 
