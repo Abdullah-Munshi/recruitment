@@ -137,8 +137,12 @@
       .header-right .main-menu {
         display: none;
       }
+      .big-screen {
+        display: none;
+      }
       .logo img {
-        width: 70px;
+        width: 100px;
+        transform: translateY(2px);
       }
       .telephones li:not(:first-child) {
         display: none;
@@ -497,6 +501,7 @@
       left: 16px;
       bottom: 16px;
     }
+   
 
   }
 
@@ -510,6 +515,7 @@
     .trans-traingle-mobile {
       display: none;
     }
+ 
   }
   @media screen and (min-width: 992px) {
       .toggle-bar {
@@ -519,6 +525,9 @@
             display: none;
     }
     .testimonial-area .section-title {
+      display: none;
+    }
+    .small-screen {
       display: none;
     }
 }

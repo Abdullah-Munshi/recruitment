@@ -94,7 +94,8 @@ ul, ol {
     padding: 16px;
 }
 .logo img {
-  width: 124px;
+	width: 124px;
+	transform: translateY(1px);
 }
 .main-menu li:not(:last-child) {
   margin-right: 40px;
