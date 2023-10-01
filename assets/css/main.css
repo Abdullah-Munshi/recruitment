@@ -1332,22 +1332,27 @@ ol {
 }
 .input-inside input::-webkit-input-placeholder,
 .input-inside textarea::-webkit-input-placeholder {
+  opacity: 1;
   color: #010101;
 }
 .input-inside input::-moz-placeholder,
 .input-inside textarea::-moz-placeholder {
+  opacity: 1;
   color: #010101;
 }
 .input-inside input:-ms-input-placeholder,
 .input-inside textarea:-ms-input-placeholder {
+  opacity: 1;
   color: #010101;
 }
 .input-inside input::-ms-input-placeholder,
 .input-inside textarea::-ms-input-placeholder {
+  opacity: 1;
   color: #010101;
 }
 .input-inside input::placeholder,
 .input-inside textarea::placeholder {
+  opacity: 1;
   color: #010101;
 }
 .input-inside input:focus,
