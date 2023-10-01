@@ -1254,6 +1254,10 @@ ol {
 .cmn-list {
   margin-bottom: 30px;
 }
+.cmn-content .link {
+  color: var(--primary700-main);
+  text-decoration: underline;
+}
 .cmn-content p:not(:last-child) {
   margin-bottom: 24px;
 }
