@@ -95,7 +95,7 @@ ul, ol {
 }
 .logo img {
 	width: 124px;
-	transform: translateY(1px);
+	transform: translateY(2px);
 }
 .main-menu li:not(:last-child) {
   margin-right: 40px;
