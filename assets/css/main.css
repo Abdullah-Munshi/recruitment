@@ -1078,12 +1078,9 @@ ol {
 .hero-bottom-wrapper .cmn-content .secondary-title {
   margin-bottom: 40px;
 }
-
 .value-g-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 .single-value {
