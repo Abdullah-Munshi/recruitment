@@ -121,6 +121,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .image-2-wrap {
+    margin-bottom: 0;
+  }
   .hero-bottom-shape {
     height: 140px;
   }
@@ -264,6 +267,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .testimonial-area .section-title {
+    margin-bottom: 15px;
+  }
   .team-member {
     width: 270px !important;
   }
@@ -469,7 +475,7 @@
     padding-bottom: 0;
   }
   .testimonial-area {
-    padding-top: 45px;
+    padding-top: 5px;
     padding-bottom: 45px;
   }
   .hero-area.type-2 {
@@ -532,6 +538,9 @@
   .trans-traingle-mobile {
     display: none;
   }
+  .testimonial-area .section-title {
+    display: none;
+  }
 }
 @media screen and (min-width: 992px) {
   .toggle-bar {
@@ -540,9 +549,7 @@
   .footer-top-part-two {
     display: none;
   }
-  .testimonial-area .section-title {
-    display: none;
-  }
+
   .small-screen {
     display: none;
   }
