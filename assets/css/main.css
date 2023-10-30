@@ -936,10 +936,6 @@ ol {
   align-items: flex-start;
 	text-align: left;
 }
-.shadow_top {
-  -webkit-box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
-          box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
-  }
 /* testimonial page css end */
 
 /* about page css start */
@@ -1208,7 +1204,7 @@ ol {
   bottom: 24px;
 }
 .hero-bottom-area.pb-80 {
-  padding-bottom: 80px;
+	padding-bottom: 35px;
 }
 .candidate-video {
   width: 100%;
@@ -1415,7 +1411,9 @@ form .box-btn {
   margin-bottom: 15px;
 }
 /* checkbox css end */
-
+.hero-bottom-wrapper.contact {
+	margin-bottom: 35px;
+}
 /* contact page css end */
 
 /* terms-policy page css start */

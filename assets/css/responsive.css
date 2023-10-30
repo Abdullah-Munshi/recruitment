@@ -288,7 +288,7 @@
     width: 270px !important;
   }
   .hero-bottom-shape {
-    height: 115px;
+    height: 170px;
   }
   .highlight-left {
     padding: 24px 20px;
@@ -533,7 +533,7 @@
     padding-bottom: 50px;
   }
   .hero-bottom-area.pb-80 {
-    padding-bottom: 65px;
+    padding-bottom: 5px;
   }
   .sec-img .gv {
     width: 80px;
@@ -541,6 +541,9 @@
     object-fit: unset !important;
     left: 16px;
     bottom: 16px;
+  }
+  .hero-bottom-wrapper.contact {
+    margin-bottom: 5px;
   }
 }
 
