@@ -1036,6 +1036,82 @@ ol {
   overflow: hidden;
   padding-bottom: 80px;
 }
+
+.ppl-top-wrap {
+  box-shadow: 0px 5px 15px 0px #522D6E;
+  background-color: var(--secondary700-main);
+  border-radius: 5px;
+  padding: 50px 40px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.ppl-top-wrap .primary-title {
+  color: #fff;
+  font-size: 32px;
+}
+.ppl-top-content p {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.ppl-top-content h5, .ppl-bottom-wrap .secondary-title {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--helvetica-medium);
+}
+.ppl-overlay-1 {
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  max-width: 90%;
+}
+.ppl-area {
+	padding-top: 80px;
+}
+.ppl-bottom-wrap {
+  box-shadow: 0px 5px 15px 0px #522D6E;
+  background-color: var(--secondary700-main);
+  border-radius: 5px;
+  padding: 50px 40px;
+}
+
+.mission-g-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 55px;
+}
+.mission-wrap p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+}
+.numbering {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-family: var(--ff-days-one);
+  font-size: 32px;
+  color: #010101;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.ppl-bottom-wrap .secondary-title {
+	margin-bottom: 45px;
+	line-height: 1.4;
+}
+.ppl-overlay-2 {
+	right: 0;
+	bottom: 0;
+	max-height: 100%;
+	max-width: 90%;
+	z-index: ;
+}
 /* about page css end */
 
 /* team page css start */

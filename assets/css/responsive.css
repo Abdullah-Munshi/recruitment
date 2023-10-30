@@ -121,6 +121,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .mission-g-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
   .image-2-wrap {
     margin-bottom: 0;
   }
@@ -274,6 +278,26 @@
 }
 
 @media screen and (max-width: 767px) {
+  .ppl-top-wrap {
+    padding: 24px;
+    display: block;
+  }
+  .ppl-top-wrap .primary-title {
+    font-size: 24px;
+  }
+  .ppl-top-content h5, .ppl-bottom-wrap .secondary-title {
+    font-size: 20px;
+  }
+  .ppl-bottom-wrap {
+    padding: 24px;
+  }
+  .ppl-bottom-wrap .secondary-title {
+    margin-bottom: 28px;
+    line-height: 1.4;
+  }
+  .ppl-bottom-wrap .secondary-title br {
+    display: none;
+  }
   .ft-links li a, .address p {
     font-weight: 400;
   }
