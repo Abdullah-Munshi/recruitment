@@ -169,7 +169,7 @@
     display: none;
   }
   .logo img {
-    width: 100px;
+    width: 99px;
     transform: translateY(2px);
   }
   .telephones li:not(:first-child) {
