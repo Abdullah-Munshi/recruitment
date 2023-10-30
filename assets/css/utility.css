@@ -146,3 +146,6 @@ LAYER CONTROL
   .z_100 {
     z-index: 100;
   }
+  .pt20 {
+    padding-top: 20px;
+  }
