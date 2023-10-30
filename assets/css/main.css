@@ -630,6 +630,7 @@ ol {
 }
 .testimonial-area {
 	padding-bottom: 60px;
+	overflow: hidden;
 }
 .testimonial-area .section-title h2 {
 	margin-bottom: 0;
@@ -932,7 +933,13 @@ ol {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 75px;
+  align-items: flex-start;
+	text-align: left;
 }
+.shadow_top {
+  -webkit-box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+          box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+  }
 /* testimonial page css end */
 
 /* about page css start */

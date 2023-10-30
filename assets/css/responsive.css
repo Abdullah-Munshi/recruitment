@@ -266,7 +266,21 @@
   }
 }
 
+@media screen and (max-width: 816px) {
+  .testimonial-area.shadow_top {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .ft-links li a, .address p {
+    font-weight: 400;
+  }
+  .testimonial-area.shadow_top {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
   .testimonial-area .section-title {
     margin-bottom: 15px;
   }
@@ -527,6 +541,13 @@
     object-fit: unset !important;
     left: 16px;
     bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .testimonial-area .container {
+    padding: 0;
+    margin-left: -7px;
   }
 }
 
