@@ -45,6 +45,7 @@ class Counter {
     { startCount: 0, endCount: 100, duration: 2000, suffix: '%' },
     { startCount: 0, endCount: 70, duration: 2000, suffix: '%' },
     { startCount: 0, endCount: 80, duration: 2000, suffix: '%' },
+    { startCount: 0, endCount: 80, duration: 2000, suffix: '%' },
   ];
   
   counters.forEach((counter, index) => {

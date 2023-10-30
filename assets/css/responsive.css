@@ -63,6 +63,9 @@
   }
 }
 @media screen and (max-width: 1199px) {
+  .network-g-wrapper {
+    grid-template-columns: 1fr;
+  }
   .ft-bottom-zone {
     display: block;
     text-align: center;
@@ -121,6 +124,19 @@
 }
 
 @media screen and (max-width: 991px) {
+  .network-area {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .recruitment-g-wrapper {
+    display: block;
+  }
+  .highlight-area {
+    padding-bottom: 50px;
+  }
+  .recruitment-g-wrapper .recruitment-single {
+    margin-top: 115px;
+  }
   .mission-g-wrapper {
     grid-template-columns: 1fr;
     grid-gap: 40px;
@@ -184,7 +200,9 @@
   }
   .gv-blk {
     right: 0;
-    bottom: 50px;
+    bottom: -20px;
+    top: auto;
+    transform: translate(0);
   }
   .header-right {
     text-align: right;
@@ -278,6 +296,22 @@
 }
 
 @media screen and (max-width: 767px) {
+  .network-area {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  .integration-badge.trans {
+    display: none;
+  }
+  .network-wrapper {
+    padding: 24px;
+  }
+  .nt-img {
+    display: none;
+  }
+  .nt {
+    max-width: 85%;
+  }
   .ppl-top-wrap {
     padding: 24px;
     display: block;
@@ -416,7 +450,7 @@
     margin-bottom: 5px;
   }
   .video_bg {
-    width: calc(100% + 650px);
+    width: calc(100% + 730px);
   }
   .highlight-two-blk {
     border-radius: 20px;
@@ -568,6 +602,17 @@
   }
   .hero-bottom-wrapper.contact {
     margin-bottom: 5px;
+  }
+  .home .hero-content-inner {
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 24px;
+  }
+  .hro-inner-text p br {
+    display: none;
+  }
+  .hero-area.home {
+    height: auto;
   }
 }
 

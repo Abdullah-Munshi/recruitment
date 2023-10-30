@@ -281,7 +281,68 @@ ol {
   -ms-flex-align: end;
   align-items: flex-end;
 }
+.highlight-two-blk {
+	border-radius: 5px;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 100px 15px auto;
+	grid-template-columns: 100px auto;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	grid-gap: 20px;
+}
+
+
 /* highlight-area css end */
+
+/* network-area css start */
+
+.nt {
+  right: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+.highlight-two-blk h6 {
+	font-size: 34px;
+	font-family: var(--ff-days-one);
+	color: #fff;
+	line-height: 1;
+	letter-spacing: -0.8px;
+	text-align: right;
+}
+.highlight-two-blk p {
+	font-size: 14px;
+}
+.ot-img {
+  margin-bottom: 40px;
+}
+.ot-img img {
+  max-height: 60px;
+}
+.nt-content {
+  max-width: 350px;
+}
+.highlight-two-blk.type-2 {
+  margin-bottom: 16px;
+}
+.nt-content .box-btn {
+  margin-top: 28px;
+}
+.nt-img {
+	right: 0;
+	bottom: 0;
+	max-width: 200px;
+}
+.integration-badge.trans {
+	bottom: 23px;
+	position: absolute;
+	right: 50px;
+}
+.nt-img.two.absolute {
+	max-width: 242px;
+}
+/* network-area css end */
 
 /* marquee-area css start */
 .marquee-area {
@@ -626,7 +687,7 @@ ol {
   color: #fff;
 }
 .network-area {
-  padding-top: 70px;
+	padding-top: 65px;
 }
 .testimonial-area {
 	padding-bottom: 60px;
@@ -638,6 +699,9 @@ ol {
 .shadow_top {
 	-webkit-box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
 	box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+}
+.home .hero-content-inner {
+	padding-top: 45px;
 }
 /* network-area css end */
 
