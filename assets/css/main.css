@@ -635,6 +635,10 @@ ol {
 .testimonial-area .section-title h2 {
 	margin-bottom: 0;
 }
+.shadow_top {
+	-webkit-box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+	box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.10);
+}
 /* network-area css end */
 
 /* footer css start */
@@ -1089,6 +1093,9 @@ ol {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+.team-rw.three::before {
+	width: 607px;
 }
 .team-rw.two::before {
   width: 303px;
