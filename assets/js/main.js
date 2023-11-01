@@ -14,4 +14,15 @@ document.addEventListener('DOMContentLoaded', function(){
           document.querySelector('.overlay').classList.remove('show')
         })
       }
+
+
+      // Marque slider activation
+      if(document.getElementById("marquee") !== null) {
+        new marquee(document.getElementById("marquee"), {
+          pauseOnHover: true,
+          duplicated: true,
+          gap: 0,
+          speed: 70,
+        });
+      }  
 })
