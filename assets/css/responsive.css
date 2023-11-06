@@ -269,10 +269,6 @@
   .terms-check-wrap p a {
     color: #fff;
   }
-  .hero-bottom-wrapper .box-btn {
-    background-color: #fff;
-    color: var(--primary700-main) !important;
-  }
   .contact-left {
     padding: 30px;
   }
@@ -319,7 +315,8 @@
   .ppl-top-wrap .primary-title {
     font-size: 24px;
   }
-  .ppl-top-content h5, .ppl-bottom-wrap .secondary-title {
+  .ppl-top-content h5,
+  .ppl-bottom-wrap .secondary-title {
     font-size: 20px;
   }
   .ppl-bottom-wrap {
@@ -332,7 +329,8 @@
   .ppl-bottom-wrap .secondary-title br {
     display: none;
   }
-  .ft-links li a, .address p {
+  .ft-links li a,
+  .address p {
     font-weight: 400;
   }
   .testimonial-area.shadow_top {
