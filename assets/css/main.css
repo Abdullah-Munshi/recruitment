@@ -986,15 +986,13 @@ ol {
   top: 0;
 }
 .hro_bg::after {
-  background-color: #010101;
-  opacity: 0.34;
+  background-color: #000;
+  opacity: 0.4;
 }
 .hro_bg::before {
-  background: linear-gradient(
-    90deg,
-    rgba(82, 45, 110, 0) 74.16%,
-    rgba(9, 10, 9, 0) 97.52%
-  );
+  background: linear-gradient(90deg, #000 51.42%, rgba(9, 10, 9, 0) 97.52%);
+  opacity: 0.8;
+  left: -30%;
 }
 .hero-bottom-shape {
   height: 175px;

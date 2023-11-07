@@ -618,6 +618,19 @@
   .recruitment-single {
     box-shadow: 0px 5px 15px 0px rgba(81, 44, 109, 0.749);
   }
+  .hro_bg::before {
+    background: linear-gradient(
+      90deg,
+      rgba(82, 45, 110, 0) 74.16%,
+      rgba(9, 10, 9, 0) 97.52%
+    );
+    opacity: 0.8;
+    left: -30%;
+  }
+  .hro_bg::after {
+    background-color: rgba(1, 1, 1, 0.8);
+    opacity: 0.4;
+  }
 }
 @media screen and (max-width: 479px) {
   .network-g-wrapper .nt {
