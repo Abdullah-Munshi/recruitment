@@ -1,732 +1,939 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team page</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <!-- Main Css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/utility.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Team page</title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <!-- Main Css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/utility.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-</head>
-
-<body>
-  <!-- Mobile menu markup start -->
-  <div class="mobile-menu-wrapper" id="mobile-menu">
-    <span class="close-mobile-menu">
-      <?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
-          fill="#522d6e" />
-      </svg>
-    </span>
-    <ul class="mobile-menu">
-      <li><a href="index.html">Home </a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="clients.html">Clients</a></li>
-      <li><a href="candidates.html">Candidates</a></li>
-      <li class="active"><a href="team.html">Team</a></li>
-      <li><a href="testimonial.html">Testimonials </a></li>
-      <li><a href="contact.html" class="box-btn">Contact Us</a></li>
-    </ul>
-  </div>
-  <div class="overlay"></div>
-  <!-- Mobile menu markup end -->
-
-  <!-- <div class="page-outer mx_auto"> -->
-  <div class="header-top absolute top_0 start_0 end_0 w_full z_90">
-    <div class="container">
-      <div class="header-top-inner flex items_center justify_between">
-        <ul class="social_list flex items_center">
-          <li>
-            <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-              <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                src="assets/img/facebook.svg" alt="facebook" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-              <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-            </a>
-          </li>
-        </ul>
-
-        <ul class="telephones flex items_center justify_end">
-          <li>
-            <a href="tel:02920670832" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Cardiff
-              </strong>
-              02920 670 832
-            </a>
-          </li>
-          <li>
-            <a href="tel:01443 230 222" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Llantrisant
-              </strong>
-              01443 230 222
-            </a>
-          </li>
-          <li>
-            <a href="tel:01792 342 948" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Swansea
-              </strong>
-              01792 342 948
-            </a>
-          </li>
-        </ul>
-      </div>
+  <body>
+    <!-- Mobile menu markup start -->
+    <div class="mobile-menu-wrapper" id="mobile-menu">
+      <span class="close-mobile-menu">
+        <?xml version="1.0" ?><svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
+            fill="#522d6e"
+          />
+        </svg>
+      </span>
+      <ul class="mobile-menu">
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="candidates.html">Candidates</a></li>
+        <li class="active"><a href="team.html">Team</a></li>
+        <li><a href="testimonial.html">Testimonials </a></li>
+        <li><a href="contact.html" class="box-btn">Contact Us</a></li>
+      </ul>
     </div>
-  </div>
-  <header class="header-area absolute z_90 w_full h_full start_0 end_0">
-    <div class="container">
-      <div class="header-content-grid bg_white">
-        <a href="#" class="logo inline_block">
-          <img class="big-screen" src="assets/img/logo.svg" alt="logo" />
-          <img class="small-screen" src="assets/img/logo-mobile.svg" alt="logo" />
-        </a>
+    <div class="overlay"></div>
+    <!-- Mobile menu markup end -->
 
-        <div class="header-right">
-          <ul class="main-menu flex items_center justify_end helveticaneue-regular-normal-black-16px">
-            <li><a href="index.html">Home </a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="clients.html">Clients</a></li>
-            <li><a href="candidates.html">Candidates</a></li>
-            <li class="active"><a href="team.html">Team</a></li>
-            <li><a href="testimonial.html">Testimonials </a></li>
-            <li><a href="contact.html" class="box-btn">Contact Us</a></li>
-          </ul>
-          <button class="toggle-bar" id="toggle-bar">
-            <?xml version="1.0" ?><svg fill="none" height="20" viewBox="0 0 20 20" width="20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path clip-rule="evenodd"
-                d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
-                fill="#4A5568" fill-rule="evenodd" />
-              <path clip-rule="evenodd"
-                d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
-                fill="#4A5568" fill-rule="evenodd" />
-              <path clip-rule="evenodd"
-                d="M3 15C3 14.4477 3.44772 14 4 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H4C3.44772 16 3 15.5523 3 15Z"
-                fill="#4A5568" fill-rule="evenodd" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="hero-area type-2 relative">
-    <div class="hro_bg absolute z_0" style="background-image: url(assets/img/team-hero-bg.webp)"></div>
-    <img src="assets/img/hero-bottom-shape.png" alt="" class="hero-bottom-shape absolute z_1" />
-    <div class="container relative z_10 h_full">
-      <div class="hero-content-outer h_full">
-        <div class="hero-content-inner relative h_full">
-          <div class="hro-inner-text">
-            <h1 class="we-are-set-recruitment">Meet The Team</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ./hero-area -->
-  <main>
-    <div class="hero-bottom-area">
+    <!-- <div class="page-outer mx_auto"> -->
+    <div class="header-top absolute top_0 start_0 end_0 w_full z_90">
       <div class="container">
-        <div class="hero-bottom-wrapper">
-          <div class="cmn-content">
-            <h3 class="secondary-title">Our Ethos</h3>
-            <p>
-              At Network Recruitment Wales, we are dedicated to helping the healthcare and education sectors meet their
-              fluctuating staffing needs by providing qualified and skilled temporary workers as needed. Our aim is to
-              ensure safe and professional service delivery while offering a cost-effective solution.
+        <div class="header-top-inner flex items_center justify_between">
+          <ul class="social_list flex items_center">
+            <li>
+              <a
+                class="inline_block"
+                href="https://twitter.com/MPSHEALTHCARE"
+                target="_blank"
+              >
+                <img
+                  class="vector"
+                  src="assets/img/twitter.svg"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.facebook.com/MPSHEALTHCARE"
+                target="_blank"
+                ><img
+                  class="link"
+                  src="assets/img/facebook.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.linkedin.com/company/mps-healthcare/"
+                target="_blank"
+                ><img
+                  class="link"
+                  src="assets/img/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.instagram.com/mpshealthcare/"
+                target="_blank"
+              >
+                <img
+                  class="group-82"
+                  src="assets/img/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+            </li>
+          </ul>
 
-
-            </p>
-            <p>We also strive to support registered healthcare and education workers by providing opportunities for
-              family-friendly, flexible working arrangements, competitive pay, and ongoing professional development and
-              support.
-              Our business model is centred around efficient systems and strategic planning to ensure positive outcomes
-              for all stakeholders, including service users, temporary workers, and the Network Recruitment Wales group
-              and its brands.</p>
-          </div>
-
-          <div class="sec-img">
-            <img src="assets/img/ab-2.jpg" alt="" class="img_fluid w_full block" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ./hero-bottom-area -->
-
-    <div class="team-area relative ">
-      <img src="assets/img/team-shape-left.png" alt=""
-        class="img-fluid team-shape-1 absolute top_0 start_0 bottom_0 h_full" />
-      <img src="assets/img/team-shape-right.png" alt=""
-        class="img-fluid team-shape-1 absolute top_0 end_0 bottom_0 h_full" />
-      <div class="container relative z_1">
-        <div class="team-outer-wrap">
-          <div class="team-rw one top">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/1.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Alyx Peters</h5>
-              <p>CEO</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw four">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/2.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Geraint Field</h5>
-              <p>Head of Projects, Quality & Digital Marketing</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/3.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Howard Burge</h5>
-              <p>Head of Sales</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/4.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Vicky Rees</h5>
-              <p>Head of Candidate & Clinical Services</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/5.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Eleanor Butler</h5>
-              <p>Operations Manager</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw three">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/7p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Declan Palmer</h5>
-              <p></p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/8p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Gareth Peters</h5>
-              <p></p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/9p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sean Cheung</h5>
-              <p></p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw four">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/6.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Josh Brunsdon</h5>
-              <p>Client Manager</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/7.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Max Padfield</h5>
-              <p>Placements Manager</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/8.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Teresa Walsh</h5>
-              <p>Compliance Manager</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/9.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Emma Humphreys</h5>
-              <p>Candidate Care Manager</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw five">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/10.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Emma Moyle</h5>
-              <p>Senior Placement Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/11.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Morgan Phillips</h5>
-              <p>Placement Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/12.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sam Hayes</h5>
-              <p>Placement Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/13.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Ruth Rees-Jones</h5>
-              <p>Placement Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/14.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Kath Summerhayes</h5>
-              <p>Placement Coordinator</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw five">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/15p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Zanny Wright</h5>
-              <p>Regional Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/16p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sharon Jones</h5>
-              <p>Regional Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/17p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Carl Greatrex</h5>
-              <p>Regional Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/18p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Michelle Wait</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/19p.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Laura Trewartha</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw five">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/15.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Joanna Roberts</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/16.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sian Jones</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/17.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Diane James</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/18.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sophie Jaynes</h5>
-              <p>Compliance Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/19.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Catherine Rodgers-Bond</h5>
-              <p>Onboarding Team Leader</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw five">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/20add.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Cerys Jones</h5>
-              <p>Candidate Care Manager</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/20.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Jack Isaac</h5>
-              <p>Payroll Team Leader</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/21.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Nikisha James</h5>
-              <p>Payroll Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/22.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Sue Davies</h5>
-              <p>Senior Payroll Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/23.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Melanie Radcliffe</h5>
-              <p>Payroll Coordinator</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw one bottom">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/24.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Jack Hayes</h5>
-              <p>Social Media and Digital Marketing Coordinator</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw two">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/25.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Seren Kane</h5>
-              <p>Out of Hours Coordinator</p>
-            </div>
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/26.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Megan Parsons</h5>
-              <p>Out of Hours Coordinator</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-          <div class="team-rw one bottom">
-            <div class="team-member">
-              <div class="thumbnail">
-                <img src="assets/img/27.png" alt="" class="img-fluid" />
-              </div>
-              <h5>Claire Betty</h5>
-              <p>Receptionist</p>
-            </div>
-          </div>
-          <!-- ./team-rw -->
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-area shadow_top bg_white">
-      <div class="container mx_auto">
-        <div class="section-title text_center">
-          <h2 class="primary-title">Reviews</h2>
-        </div>
-        <div class="res-purpose">
-          <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer-area">
-    <div class="ft-top-zone relative">
-      <img class="ft-trans left absolute" src="assets/img/11-9.png" alt="11 9" />
-      <img class="ft-trans right absolute" src="assets/img/11-10.png" alt="11 10" />
-      <div class="container mx_auto relative z_1">
-        <a href="#" class="ft-logo inline-block">
-          <img class="untitled-design-20-3" src="assets/img/logo-white.svg" alt="logo" />
-        </a>
-        <div class="footer-top-part-two">
-          <div class="footer-widget">
-            <h4>NRW</h4>
-            <ul class="ft-links">
-              <li><a href="#"> About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Candidates</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Pages</h4>
-            <ul class="ft-links">
-              <li><a href="#">Site Map</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Data Retention Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget partners">
-            <h4>Partners</h4>
-            <ul class="ft-links terms flex items_center">
-              <li><a href="#">SET Recruitment</a></li>
-              <li><a href="#">MPS Recruitment</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget email">
-            <h4>Email</h4>
-            <ul class="ft-links emails">
-              <li>
-                <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
-                  enquiries@networkrecruitmentwales.co.uk
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Swansea Branch</h4>
-            <div class="address">
-              <p>
-                Canolfan Gorseinon Centre <br />
-                Gorseinon <br />
-                Swansea <br />
-                SA4 4QN <br />
-                01792 342 948
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget">
-            <h4>Llantrisant Branch</h4>
-            <div class="address">
-              <p>
-                Unit 1 & 2 Magden Park <br />
-                Llantrisant <br />
-                Rhondda Cynon Taf <br />
-                CF72 8XT <br />
+          <ul class="telephones flex items_center justify_end">
+            <li>
+              <a
+                href="tel:01443 230 222"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Llantrisant
+                </strong>
                 01443 230 222
-              </p>
-            </div>
-          </div>
-
-          <div class="footer-widget">
-            <h4>Cardiff Branch</h4>
-            <div class="address">
-              <p>
-                3rd Floor <br />
-                Castlebridge 2 <br />
-                Cardiff <br />
-                CF11 9AB <br />
+              </a>
+            </li>
+            <li>
+              <a
+                href="tel:02920670832"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Cardiff
+                </strong>
                 02920 670 832
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget form">
-            <h4>Follow Us</h4>
-            <ul class="social_list footer flex items_center">
-              <li>
-                <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-                  <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                    src="assets/img/facebook.svg" alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                    class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-                </a>
-              </li>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="tel:01792 342 948"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Swansea
+                </strong>
+                01792 342 948
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header class="header-area absolute z_90 w_full h_full start_0 end_0">
+      <div class="container">
+        <div class="header-content-grid bg_white">
+          <a href="#" class="logo inline_block">
+            <img class="big-screen" src="assets/img/logo.svg" alt="logo" />
+            <img
+              class="small-screen"
+              src="assets/img/logo-mobile.svg"
+              alt="logo"
+            />
+          </a>
+
+          <div class="header-right">
+            <ul
+              class="main-menu flex items_center justify_end helveticaneue-regular-normal-black-16px"
+            >
+              <li><a href="index.html">Home </a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="clients.html">Clients</a></li>
+              <li><a href="candidates.html">Candidates</a></li>
+              <li class="active"><a href="team.html">Team</a></li>
+              <li><a href="testimonial.html">Testimonials </a></li>
+              <li><a href="contact.html" class="box-btn">Contact Us</a></li>
             </ul>
-          </div>
-          <div class="integration-badge">
-            <a href="https://www.feefo.com/reviews/network-recruitment-wales" target="_blank"><img alt="Feefo logo"
-                border="0" class="img_fluid"
-                src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
-                title="See what our customers say about us" /></a>
+            <button class="toggle-bar" id="toggle-bar">
+              <?xml version="1.0" ?><svg
+                fill="none"
+                height="20"
+                viewBox="0 0 20 20"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M3 15C3 14.4477 3.44772 14 4 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H4C3.44772 16 3 15.5523 3 15Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
           </div>
         </div>
-        <div class="footer-top-part">
-          <div class="footer-widget">
-            <h4>NRW</h4>
-            <ul class="ft-links">
-              <li><a href="#"> About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Candidates</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Llantrisant Branch</h4>
-            <div class="address">
-              <p>
-                Unit 1 & 2 Magden Park <br />
-                Llantrisant <br />
-                Rhondda Cynon Taf <br />
-                CF72 8XT <br />
-                01443 230 222
-              </p>
+      </div>
+    </header>
+    <div class="hero-area type-2 relative team-pge">
+      <div
+        class="hro_bg absolute z_0"
+        style="background-image: url(assets/img/team-hero-bg.webp)"
+      ></div>
+      <img
+        src="assets/img/hero-bottom-shape.png"
+        alt=""
+        class="hero-bottom-shape absolute z_1"
+      />
+      <div class="container relative z_10 h_full">
+        <div class="hero-content-outer h_full">
+          <div class="hero-content-inner relative h_full">
+            <div class="hro-inner-text">
+              <h1 class="we-are-set-recruitment">Meet The Team</h1>
             </div>
           </div>
-          <div class="footer-widget">
-            <h4>Swansea Branch</h4>
-            <div class="address">
+        </div>
+      </div>
+    </div>
+    <!-- ./hero-area -->
+    <main>
+      <div class="hero-bottom-area">
+        <div class="container">
+          <div class="hero-bottom-wrapper">
+            <div class="cmn-content">
+              <h3 class="secondary-title">Our Ethos</h3>
               <p>
-                Canolfan Gorseinon Centre <br />
-                Gorseinon <br />
-                Swansea <br />
-                SA4 4QN <br />
-                01792 342 948
+                At Network Recruitment Wales, we are dedicated to helping the
+                healthcare and education sectors meet their fluctuating staffing
+                needs by providing qualified and skilled temporary workers as
+                needed. Our aim is to ensure safe and professional service
+                delivery while offering a cost-effective solution.
+              </p>
+              <p>
+                We also strive to support registered healthcare and education
+                workers by providing opportunities for family-friendly, flexible
+                working arrangements, competitive pay, and ongoing professional
+                development and support. Our business model is centred around
+                efficient systems and strategic planning to ensure positive
+                outcomes for all stakeholders, including service users,
+                temporary workers, and the Network Recruitment Wales group and
+                its brands.
               </p>
             </div>
-          </div>
-          <div class="footer-widget">
-            <h4>Cardiff Branch</h4>
-            <div class="address">
-              <p>
-                3rd Floor <br />
-                Castlebridge 2 <br />
-                Cardiff <br />
-                CF11 9AB <br />
-                02920 670 832
-              </p>
+
+            <div class="sec-img">
+              <img
+                src="assets/img/ab-2.jpg"
+                alt=""
+                class="img_fluid w_full block"
+              />
             </div>
           </div>
-          <div class="footer-widget form">
+        </div>
+      </div>
+      <!-- ./hero-bottom-area -->
+
+      <div class="team-area relative">
+        <img
+          src="assets/img/team-shape-left.png"
+          alt=""
+          class="img-fluid team-shape-1 absolute top_0 start_0 bottom_0 h_full"
+        />
+        <img
+          src="assets/img/team-shape-right.png"
+          alt=""
+          class="img-fluid team-shape-1 absolute top_0 end_0 bottom_0 h_full"
+        />
+        <div class="container relative z_1">
+          <div class="team-outer-wrap">
+            <div class="team-rw one top">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/1.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Alyx Peters</h5>
+                <p>CEO</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw four">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/2.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Geraint Field</h5>
+                <p>Head of Projects, Quality & Digital Marketing</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/3.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Howard Burge</h5>
+                <p>Head of Sales</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/4.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Vicky Rees</h5>
+                <p>Head of Candidate & Clinical Services</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/5.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Eleanor Butler</h5>
+                <p>Operations Manager</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw three">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/7p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Declan Palmer</h5>
+                <p></p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/8p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Gareth Peters</h5>
+                <p></p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/9p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sean Cheung</h5>
+                <p></p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw four">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/6.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Josh Brunsdon</h5>
+                <p>Client Manager</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/7.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Max Padfield</h5>
+                <p>Placements Manager</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/8.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Teresa Walsh</h5>
+                <p>Compliance Manager</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/9.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Emma Humphreys</h5>
+                <p>Candidate Care Manager</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw five">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/10.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Emma Moyle</h5>
+                <p>Senior Placement Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/11.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Morgan Phillips</h5>
+                <p>Placement Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/12.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sam Hayes</h5>
+                <p>Placement Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/13.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Ruth Rees-Jones</h5>
+                <p>Placement Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/14.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Kath Summerhayes</h5>
+                <p>Placement Coordinator</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw five">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/15p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Zanny Wright</h5>
+                <p>Regional Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/16p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sharon Jones</h5>
+                <p>Regional Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/17p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Carl Greatrex</h5>
+                <p>Regional Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/18p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Michelle Wait</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/19p.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Laura Trewartha</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw five">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/15.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Joanna Roberts</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/16.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sian Jones</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/17.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Diane James</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/18.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sophie Jaynes</h5>
+                <p>Compliance Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/19.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Catherine Rodgers-Bond</h5>
+                <p>Onboarding Team Leader</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw five">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/20add.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Cerys Jones</h5>
+                <p>Candidate Care Manager</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/20.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Jack Isaac</h5>
+                <p>Payroll Team Leader</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/21.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Nikisha James</h5>
+                <p>Payroll Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/22.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Sue Davies</h5>
+                <p>Senior Payroll Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/23.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Melanie Radcliffe</h5>
+                <p>Payroll Coordinator</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw one bottom">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/24.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Jack Hayes</h5>
+                <p>Social Media and Digital Marketing Coordinator</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw two">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/25.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Seren Kane</h5>
+                <p>Out of Hours Coordinator</p>
+              </div>
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/26.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Megan Parsons</h5>
+                <p>Out of Hours Coordinator</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+            <div class="team-rw one bottom">
+              <div class="team-member">
+                <div class="thumbnail">
+                  <img src="assets/img/27.png" alt="" class="img-fluid" />
+                </div>
+                <h5>Claire Betty</h5>
+                <p>Receptionist</p>
+              </div>
+            </div>
+            <!-- ./team-rw -->
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-area shadow_top bg_white">
+        <div class="container mx_auto">
+          <div class="section-title text_center">
+            <h2 class="primary-title">Reviews</h2>
+          </div>
+          <div class="res-purpose">
+            <div
+              id="feefo-service-review-carousel-widgetId"
+              class="feefo-review-carousel-widget-service"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-area">
+      <div class="ft-top-zone relative">
+        <img
+          class="ft-trans left absolute"
+          src="assets/img/11-9.png"
+          alt="11 9"
+        />
+        <img
+          class="ft-trans right absolute"
+          src="assets/img/11-10.png"
+          alt="11 10"
+        />
+        <div class="container mx_auto relative z_1">
+          <a href="#" class="ft-logo inline-block">
+            <img
+              class="untitled-design-20-3"
+              src="assets/img/logo-white.svg"
+              alt="logo"
+            />
+          </a>
+          <div class="footer-top-part-two">
+            <div class="footer-widget">
+              <h4>NRW</h4>
+              <ul class="ft-links">
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Candidates</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Pages</h4>
+              <ul class="ft-links">
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Data Retention Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget partners">
+              <h4>Partners</h4>
+              <ul class="ft-links terms flex items_center">
+                <li><a href="#">SET Recruitment</a></li>
+                <li><a href="#">MPS Recruitment</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget email">
+              <h4>Email</h4>
+              <ul class="ft-links emails">
+                <li>
+                  <a
+                    href="mailto:enquiries@networkrecruitmentwales.co.uk"
+                    target="_blank"
+                  >
+                    enquiries@networkrecruitmentwales.co.uk
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Swansea Branch</h4>
+              <div class="address">
+                <p>
+                  Canolfan Gorseinon Centre <br />
+                  Gorseinon <br />
+                  Swansea <br />
+                  SA4 4QN <br />
+                  01792 342 948
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Llantrisant Branch</h4>
+              <div class="address">
+                <p>
+                  Unit 1 & 2 Magden Park <br />
+                  Llantrisant <br />
+                  Rhondda Cynon Taf <br />
+                  CF72 8XT <br />
+                  01443 230 222
+                </p>
+              </div>
+            </div>
+
+            <div class="footer-widget">
+              <h4>Cardiff Branch</h4>
+              <div class="address">
+                <p>
+                  3rd Floor <br />
+                  Castlebridge 2 <br />
+                  Cardiff <br />
+                  CF11 9AB <br />
+                  02920 670 832
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget form">
+              <h4>Follow Us</h4>
+              <ul class="social_list footer flex items_center">
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://twitter.com/MPSHEALTHCARE"
+                    target="_blank"
+                  >
+                    <img
+                      class="vector"
+                      src="assets/img/twitter.svg"
+                      alt="twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.facebook.com/MPSHEALTHCARE"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.linkedin.com/company/mps-healthcare/"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/linkedin.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.instagram.com/mpshealthcare/"
+                    target="_blank"
+                  >
+                    <img
+                      class="group-82"
+                      src="assets/img/instagram.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div class="integration-badge">
-              <a href="https://www.feefo.com/reviews/network-recruitment-wales" target="_blank"><img alt="Feefo logo"
-                  border="0" class="img_fluid"
+              <a
+                href="https://www.feefo.com/reviews/network-recruitment-wales"
+                target="_blank"
+                ><img
+                  alt="Feefo logo"
+                  border="0"
+                  class="img_fluid"
                   src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
-                  title="See what our customers say about us" /></a>
+                  title="See what our customers say about us"
+              /></a>
             </div>
-            <h4>Can’t find what your looking for?</h4>
-            <form class="search relative">
-              <input type="text" class="w_full bg-white" />
-              <button class="absolute right-0" type="submit">Search</button>
-            </form>
-            <ul class="social_list footer flex items_center justify_end">
-              <li>
-                <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-                  <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                    src="assets/img/facebook.svg" alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                    class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-                </a>
-              </li>
-            </ul>
           </div>
-          <div class="footer-widget email">
-            <h4>Email</h4>
-            <ul class="ft-links emails">
-              <li>
-                <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
-                  enquiries@networkrecruitmentwales.co.uk
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-widget partners">
-            <h4>Partners</h4>
-            <ul class="ft-links terms flex items_center">
-              <li><a href="#">SET Recruitment</a></li>
-              <li><a href="#">MPS Recruitment</a></li>
-            </ul>
+          <div class="footer-top-part">
+            <div class="footer-widget">
+              <h4>NRW</h4>
+              <ul class="ft-links">
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Candidates</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Llantrisant Branch</h4>
+              <div class="address">
+                <p>
+                  Unit 1 & 2 Magden Park <br />
+                  Llantrisant <br />
+                  Rhondda Cynon Taf <br />
+                  CF72 8XT <br />
+                  01443 230 222
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Swansea Branch</h4>
+              <div class="address">
+                <p>
+                  Canolfan Gorseinon Centre <br />
+                  Gorseinon <br />
+                  Swansea <br />
+                  SA4 4QN <br />
+                  01792 342 948
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Cardiff Branch</h4>
+              <div class="address">
+                <p>
+                  3rd Floor <br />
+                  Castlebridge 2 <br />
+                  Cardiff <br />
+                  CF11 9AB <br />
+                  02920 670 832
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget form">
+              <div class="integration-badge">
+                <a
+                  href="https://www.feefo.com/reviews/network-recruitment-wales"
+                  target="_blank"
+                  ><img
+                    alt="Feefo logo"
+                    border="0"
+                    class="img_fluid"
+                    src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
+                    title="See what our customers say about us"
+                /></a>
+              </div>
+              <h4>Can’t find what your looking for?</h4>
+              <form class="search relative">
+                <input type="text" class="w_full bg-white" />
+                <button class="absolute right-0" type="submit">Search</button>
+              </form>
+              <ul class="social_list footer flex items_center justify_end">
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://twitter.com/MPSHEALTHCARE"
+                    target="_blank"
+                  >
+                    <img
+                      class="vector"
+                      src="assets/img/twitter.svg"
+                      alt="twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.facebook.com/MPSHEALTHCARE"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.linkedin.com/company/mps-healthcare/"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/linkedin.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.instagram.com/mpshealthcare/"
+                    target="_blank"
+                  >
+                    <img
+                      class="group-82"
+                      src="assets/img/instagram.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget email">
+              <h4>Email</h4>
+              <ul class="ft-links emails">
+                <li>
+                  <a
+                    href="mailto:enquiries@networkrecruitmentwales.co.uk"
+                    target="_blank"
+                  >
+                    enquiries@networkrecruitmentwales.co.uk
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget partners">
+              <h4>Partners</h4>
+              <ul class="ft-links terms flex items_center">
+                <li><a href="#">SET Recruitment</a></li>
+                <li><a href="#">MPS Recruitment</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container mx_auto">
-      <div class="ft-bottom-zone">
-        <ul class="ft-links terms flex items_center inter-regular-normal-black-14px">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Data Retention Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Site Map</a></li>
-        </ul>
+      <div class="container mx_auto">
+        <div class="ft-bottom-zone">
+          <ul
+            class="ft-links terms flex items_center inter-regular-normal-black-14px"
+          >
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Data Retention Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
 
-        <div class="copyright-text">
-          <p>
-            Copyright Network Recruitment Wales 2023 - Website by
-            <a href="#" class="inline_block">The Web Designer Cardiff</a>
-          </p>
+          <div class="copyright-text">
+            <p>
+              Copyright Network Recruitment Wales 2023 - Website by
+              <a href="#" class="inline_block">The Web Designer Cardiff</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- </div> -->
+    </footer>
+    <!-- </div> -->
 
-  <!-- All JS Here -->
-  <!-- Plugin JS -->
-  <script type="text/javascript" src="https://api.feefo.com/api/javascript/network-recruitment-wales" async></script>
-  <script src="assets/js/vanilla-marquee.js"></script>
-  <script src="assets/js/counterUp.js"></script>
+    <!-- All JS Here -->
+    <!-- Plugin JS -->
+    <script
+      type="text/javascript"
+      src="https://api.feefo.com/api/javascript/network-recruitment-wales"
+      async
+    ></script>
+    <script src="assets/js/vanilla-marquee.js"></script>
+    <script src="assets/js/counterUp.js"></script>
 
-  <!-- Main JS  -->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!-- Main JS  -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

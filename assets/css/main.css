@@ -1182,13 +1182,13 @@ ol {
 .ppl-bottom-wrap .secondary-title {
   margin-bottom: 45px;
   line-height: 1.4;
+  font-weight: 500;
 }
 .ppl-overlay-2 {
   right: 0;
   bottom: 0;
   max-height: 100%;
   max-width: 90%;
-  z-index: ;
 }
 /* about page css end */
 
@@ -1300,6 +1300,11 @@ ol {
 .team-rw.five .team-member {
   width: 224px;
 }
+.m-v .mv,
+.m-v .nt-img {
+  display: none;
+}
+
 /* team page css end */
 
 /* clients page css start */
@@ -1312,7 +1317,6 @@ ol {
   font-size: 16px;
   margin-bottom: 11px;
   list-style: disc;
-  padding-left: ;
   margin-left: 15px;
 }
 .cmn-list {

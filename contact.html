@@ -1,502 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <!-- Main Css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/utility.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Page</title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <!-- Main Css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/utility.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-</head>
-
-<body>
-  <!-- Mobile menu markup start -->
-  <div class="mobile-menu-wrapper" id="mobile-menu">
-    <span class="close-mobile-menu">
-      <?xml version="1.0" ?><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
-          fill="#522d6e" />
-      </svg>
-    </span>
-    <ul class="mobile-menu">
-      <li><a href="index.html">Home </a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="clients.html">Clients</a></li>
-      <li><a href="candidates.html">Candidates</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="testimonial.html">Testimonials </a></li>
-      <li><a href="contact.html" class="box-btn">Contact Us</a></li>
-    </ul>
-  </div>
-  <div class="overlay"></div>
-  <!-- Mobile menu markup end -->
-
-  <!-- <div class="page-outer mx_auto"> -->
-  <div class="header-top absolute top_0 start_0 end_0 w_full z_90">
-    <div class="container">
-      <div class="header-top-inner flex items_center justify_between">
-        <ul class="social_list flex items_center">
-          <li>
-            <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-              <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                src="assets/img/facebook.svg" alt="facebook" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-              <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-            </a>
-          </li>
-        </ul>
-
-        <ul class="telephones flex items_center justify_end">
-          <li>
-            <a href="tel:02920670832" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Cardiff
-              </strong>
-              02920 670 832
-            </a>
-          </li>
-          <li>
-            <a href="tel:01443 230 222" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Llantrisant
-              </strong>
-              01443 230 222
-            </a>
-          </li>
-          <li>
-            <a href="tel:01792 342 948" target="_blank" class="inline_flex items_center">
-              <strong class="inline_flex items_center helveticaneue-bold-white-16px">
-                <img class="call-icon" src="assets/img/vector-4@2x.png" alt="cal" />
-                Swansea
-              </strong>
-              01792 342 948
-            </a>
-          </li>
-        </ul>
-      </div>
+  <body>
+    <!-- Mobile menu markup start -->
+    <div class="mobile-menu-wrapper" id="mobile-menu">
+      <span class="close-mobile-menu">
+        <?xml version="1.0" ?><svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
+            fill="#522d6e"
+          />
+        </svg>
+      </span>
+      <ul class="mobile-menu">
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="candidates.html">Candidates</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="testimonial.html">Testimonials </a></li>
+        <li><a href="contact.html" class="box-btn">Contact Us</a></li>
+      </ul>
     </div>
-  </div>
-  <header class="header-area absolute z_90 w_full h_full start_0 end_0">
-    <div class="container">
-      <div class="header-content-grid bg_white">
-        <a href="#" class="logo inline_block">
-          <img class="big-screen" src="assets/img/logo.svg" alt="logo" />
-          <img class="small-screen" src="assets/img/logo-mobile.svg" alt="logo" />
-        </a>
+    <div class="overlay"></div>
+    <!-- Mobile menu markup end -->
 
-        <div class="header-right">
-          <ul class="main-menu flex items_center justify_end helveticaneue-regular-normal-black-16px">
-            <li><a href="index.html">Home </a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="clients.html">Clients</a></li>
-            <li><a href="candidates.html">Candidates</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="testimonial.html">Testimonials </a></li>
-            <li><a href="contact.html" class="box-btn">Contact Us</a></li>
-          </ul>
-          <button class="toggle-bar" id="toggle-bar">
-            <?xml version="1.0" ?><svg fill="none" height="20" viewBox="0 0 20 20" width="20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path clip-rule="evenodd"
-                d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
-                fill="#4A5568" fill-rule="evenodd" />
-              <path clip-rule="evenodd"
-                d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
-                fill="#4A5568" fill-rule="evenodd" />
-              <path clip-rule="evenodd"
-                d="M3 15C3 14.4477 3.44772 14 4 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H4C3.44772 16 3 15.5523 3 15Z"
-                fill="#4A5568" fill-rule="evenodd" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="hero-area type-2 relative">
-    <div class="hro_bg absolute z_0" style="background-image: url(assets/img/contact-hero-bg.webp)"></div>
-    <img src="assets/img/hero-bottom-shape.png" alt="" class="hero-bottom-shape absolute z_1" />
-    <div class="container relative z_10 h_full">
-      <div class="hero-content-outer h_full">
-        <div class="hero-content-inner relative h_full">
-          <div class="hro-inner-text">
-            <h1 class="we-are-set-recruitment">Contact Us</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ./hero-area -->
-  <main>
-    <div class="hero-bottom-area">
+    <!-- <div class="page-outer mx_auto"> -->
+    <div class="header-top absolute top_0 start_0 end_0 w_full z_90">
       <div class="container">
-        <div class="hero-bottom-wrapper contact mb-80">
-          <div class="contact-left">
-            <h3 class="secondary-title">Get In Touch</h3>
-            <div class="para-grid">
-              <div class="para">
-                <h5 class="para-title">Telephone</h5>
-                <p><strong>Llantrisant</strong>01443 230 222</p>
-                <p><strong>Swansea</strong>01443 230 222</p>
-                <p><strong>Cardiff</strong>01443 230 222</p>
-              </div>
-              <div class="para">
-                <h5 class="para-title">Opening Hours</h5>
-                <p><strong class="block">Monday - Friday</strong>7AM - 8PM</p>
-                <p>
-                  <strong class="block">Saturday - Sunday</strong>9AM - 5PM
-                </p>
-                <div class="socials-wp">
-                  <h5 class="para-title">Socials</h5>
-                  <ul class="social_list flex items_center">
-                    <li>
-                      <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-                        <img class="vector" src="assets/img/twitter-primary.svg" alt="twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img
-                          class="link" src="assets/img/facebook-primary.svg" alt="facebook" />
-                      </a>
-                    </li>
-                    <li>
-                      <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/"
-                        target="_blank"><img class="link" src="assets/img/linkedin-primary.svg" alt="linkedin" />
-                      </a>
-                    </li>
-                    <li>
-                      <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-                        <img class="group-82" src="assets/img/instagram-primary.svg" alt="instagram" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="para full">
-                <h5 class="para-title">Email</h5>
-                <a class="mail" href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
-                  enquiries@networkrecruitmentwales.co.uk
-                </a>
-              </div>
-            </div>
-            <div class="integration-badge">
-              <a href="https://www.feefo.com/reviews/network-recruitment-wales" target="_blank"><img alt="Feefo logo"
-                  border="0" class="img_fluid"
-                  src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
-                  title="See what our customers say about us" /></a>
-            </div>
+        <div class="header-top-inner flex items_center justify_between">
+          <ul class="social_list flex items_center">
+            <li>
+              <a
+                class="inline_block"
+                href="https://twitter.com/MPSHEALTHCARE"
+                target="_blank"
+              >
+                <img
+                  class="vector"
+                  src="assets/img/twitter.svg"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.facebook.com/MPSHEALTHCARE"
+                target="_blank"
+                ><img
+                  class="link"
+                  src="assets/img/facebook.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.linkedin.com/company/mps-healthcare/"
+                target="_blank"
+                ><img
+                  class="link"
+                  src="assets/img/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="inline_block"
+                href="https://www.instagram.com/mpshealthcare/"
+                target="_blank"
+              >
+                <img
+                  class="group-82"
+                  src="assets/img/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <ul class="telephones flex items_center justify_end">
+            <li>
+              <a
+                href="tel:01443 230 222"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Llantrisant
+                </strong>
+                01443 230 222
+              </a>
+            </li>
+            <li>
+              <a
+                href="tel:02920670832"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Cardiff
+                </strong>
+                02920 670 832
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="tel:01792 342 948"
+                target="_blank"
+                class="inline_flex items_center"
+              >
+                <strong
+                  class="inline_flex items_center helveticaneue-bold-white-16px"
+                >
+                  <img
+                    class="call-icon"
+                    src="assets/img/vector-4@2x.png"
+                    alt="cal"
+                  />
+                  Swansea
+                </strong>
+                01792 342 948
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header class="header-area absolute z_90 w_full h_full start_0 end_0">
+      <div class="container">
+        <div class="header-content-grid bg_white">
+          <a href="#" class="logo inline_block">
+            <img class="big-screen" src="assets/img/logo.svg" alt="logo" />
+            <img
+              class="small-screen"
+              src="assets/img/logo-mobile.svg"
+              alt="logo"
+            />
+          </a>
+
+          <div class="header-right">
+            <ul
+              class="main-menu flex items_center justify_end helveticaneue-regular-normal-black-16px"
+            >
+              <li><a href="index.html">Home </a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="clients.html">Clients</a></li>
+              <li><a href="candidates.html">Candidates</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="testimonial.html">Testimonials </a></li>
+              <li><a href="contact.html" class="box-btn">Contact Us</a></li>
+            </ul>
+            <button class="toggle-bar" id="toggle-bar">
+              <?xml version="1.0" ?><svg
+                fill="none"
+                height="20"
+                viewBox="0 0 20 20"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+                <path
+                  clip-rule="evenodd"
+                  d="M3 15C3 14.4477 3.44772 14 4 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H4C3.44772 16 3 15.5523 3 15Z"
+                  fill="#4A5568"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
           </div>
-          <div class="contact-right">
-            <form action="">
-              <div class="twin">
-                <div class="input-inside">
-                  <input type="text" placeholder="Name" />
-                </div>
-                <div class="input-inside">
-                  <input type="text" placeholder="Telephone" />
-                </div>
-              </div>
-              <div class="twin">
-                <div class="input-inside">
-                  <input type="text" placeholder="Enquiry" />
-                </div>
-                <div class="input-inside">
-                  <input type="email" placeholder="Email" />
-                </div>
-              </div>
-              <div class="input-inside">
-                <textarea name="" id="" cols="30" rows="10" placeholder="I’d like help with..."></textarea>
-              </div>
-              <div class="terms-check-wrap flex items_center">
-                <label class="checkbox-wrap relative">
-                  <input type="checkbox" />
-                  <span class="checkbox absolute w_full h_full start_0 top_0 end_0 bottom_0"></span>
-                </label>
-                <p>
-                  GDPR <a href="#" target="_blank" class="link">Statement</a>
-                </p>
-              </div>
-              <button type="submit" class="box-btn">Send Message</button>
-            </form>
+        </div>
+      </div>
+    </header>
+    <div class="hero-area type-2 relative">
+      <div
+        class="hro_bg absolute z_0"
+        style="background-image: url(assets/img/contact-hero-bg.webp)"
+      ></div>
+      <img
+        src="assets/img/hero-bottom-shape.png"
+        alt=""
+        class="hero-bottom-shape absolute z_1"
+      />
+      <div class="container relative z_10 h_full">
+        <div class="hero-content-outer h_full">
+          <div class="hero-content-inner relative h_full">
+            <div class="hro-inner-text">
+              <h1 class="we-are-set-recruitment">Contact Us</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ./hero-bottom-area -->
-    <div class="testimonial-area bg_white">
+    <!-- ./hero-area -->
+    <main>
+      <div class="hero-bottom-area">
+        <div class="container">
+          <div class="hero-bottom-wrapper contact mb-80">
+            <div class="contact-left">
+              <h3 class="secondary-title">Get In Touch</h3>
+              <div class="para-grid">
+                <div class="para">
+                  <h5 class="para-title">Telephone</h5>
+                  <p><strong>Llantrisant</strong>01443 230 222</p>
+                  <p><strong>Swansea</strong>01443 230 222</p>
+                  <p><strong>Cardiff</strong>01443 230 222</p>
+                </div>
+                <div class="para">
+                  <h5 class="para-title">Opening Hours</h5>
+                  <p><strong class="block">Monday - Friday</strong>7AM - 8PM</p>
+                  <p>
+                    <strong class="block">Saturday - Sunday</strong>9AM - 5PM
+                  </p>
+                  <div class="socials-wp">
+                    <h5 class="para-title">Socials</h5>
+                    <ul class="social_list flex items_center">
+                      <li>
+                        <a
+                          class="inline_block"
+                          href="https://twitter.com/MPSHEALTHCARE"
+                          target="_blank"
+                        >
+                          <img
+                            class="vector"
+                            src="assets/img/twitter-primary.svg"
+                            alt="twitter"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="inline_block"
+                          href="https://www.facebook.com/MPSHEALTHCARE"
+                          target="_blank"
+                          ><img
+                            class="link"
+                            src="assets/img/facebook-primary.svg"
+                            alt="facebook"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="inline_block"
+                          href="https://www.linkedin.com/company/mps-healthcare/"
+                          target="_blank"
+                          ><img
+                            class="link"
+                            src="assets/img/linkedin-primary.svg"
+                            alt="linkedin"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="inline_block"
+                          href="https://www.instagram.com/mpshealthcare/"
+                          target="_blank"
+                        >
+                          <img
+                            class="group-82"
+                            src="assets/img/instagram-primary.svg"
+                            alt="instagram"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="para full">
+                  <h5 class="para-title">Email</h5>
+                  <a
+                    class="mail"
+                    href="mailto:enquiries@networkrecruitmentwales.co.uk"
+                    target="_blank"
+                  >
+                    enquiries@networkrecruitmentwales.co.uk
+                  </a>
+                </div>
+              </div>
+              <div class="integration-badge">
+                <a
+                  href="https://www.feefo.com/reviews/network-recruitment-wales"
+                  target="_blank"
+                  ><img
+                    alt="Feefo logo"
+                    border="0"
+                    class="img_fluid"
+                    src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
+                    title="See what our customers say about us"
+                /></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form action="">
+                <div class="twin">
+                  <div class="input-inside">
+                    <input type="text" placeholder="Name" />
+                  </div>
+                  <div class="input-inside">
+                    <input type="text" placeholder="Telephone" />
+                  </div>
+                </div>
+                <div class="twin">
+                  <div class="input-inside">
+                    <input type="text" placeholder="Enquiry" />
+                  </div>
+                  <div class="input-inside">
+                    <input type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="input-inside">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="I’d like help with..."
+                  ></textarea>
+                </div>
+                <div class="terms-check-wrap flex items_center">
+                  <label class="checkbox-wrap relative">
+                    <input type="checkbox" />
+                    <span
+                      class="checkbox absolute w_full h_full start_0 top_0 end_0 bottom_0"
+                    ></span>
+                  </label>
+                  <p>
+                    GDPR <a href="#" target="_blank" class="link">Statement</a>
+                  </p>
+                </div>
+                <button type="submit" class="box-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ./hero-bottom-area -->
+      <div class="testimonial-area bg_white">
+        <div class="container mx_auto">
+          <div class="section-title text_center">
+            <h2 class="primary-title">Reviews</h2>
+          </div>
+          <div class="res-purpose">
+            <div
+              id="feefo-service-review-carousel-widgetId"
+              class="feefo-review-carousel-widget-service"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-area">
+      <div class="ft-top-zone relative">
+        <img
+          class="ft-trans left absolute"
+          src="assets/img/11-9.png"
+          alt="11 9"
+        />
+        <img
+          class="ft-trans right absolute"
+          src="assets/img/11-10.png"
+          alt="11 10"
+        />
+        <div class="container mx_auto relative z_1">
+          <a href="#" class="ft-logo inline-block">
+            <img
+              class="untitled-design-20-3"
+              src="assets/img/logo-white.svg"
+              alt="logo"
+            />
+          </a>
+          <div class="footer-top-part-two">
+            <div class="footer-widget">
+              <h4>NRW</h4>
+              <ul class="ft-links">
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Candidates</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Pages</h4>
+              <ul class="ft-links">
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Data Retention Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget partners">
+              <h4>Partners</h4>
+              <ul class="ft-links terms flex items_center">
+                <li><a href="#">SET Recruitment</a></li>
+                <li><a href="#">MPS Recruitment</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget email">
+              <h4>Email</h4>
+              <ul class="ft-links emails">
+                <li>
+                  <a
+                    href="mailto:enquiries@networkrecruitmentwales.co.uk"
+                    target="_blank"
+                  >
+                    enquiries@networkrecruitmentwales.co.uk
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Swansea Branch</h4>
+              <div class="address">
+                <p>
+                  Canolfan Gorseinon Centre <br />
+                  Gorseinon <br />
+                  Swansea <br />
+                  SA4 4QN <br />
+                  01792 342 948
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Llantrisant Branch</h4>
+              <div class="address">
+                <p>
+                  Unit 1 & 2 Magden Park <br />
+                  Llantrisant <br />
+                  Rhondda Cynon Taf <br />
+                  CF72 8XT <br />
+                  01443 230 222
+                </p>
+              </div>
+            </div>
+
+            <div class="footer-widget">
+              <h4>Cardiff Branch</h4>
+              <div class="address">
+                <p>
+                  3rd Floor <br />
+                  Castlebridge 2 <br />
+                  Cardiff <br />
+                  CF11 9AB <br />
+                  02920 670 832
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget form">
+              <h4>Follow Us</h4>
+              <ul class="social_list footer flex items_center">
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://twitter.com/MPSHEALTHCARE"
+                    target="_blank"
+                  >
+                    <img
+                      class="vector"
+                      src="assets/img/twitter.svg"
+                      alt="twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.facebook.com/MPSHEALTHCARE"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.linkedin.com/company/mps-healthcare/"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/linkedin.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.instagram.com/mpshealthcare/"
+                    target="_blank"
+                  >
+                    <img
+                      class="group-82"
+                      src="assets/img/instagram.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="integration-badge">
+              <a
+                href="https://www.feefo.com/reviews/network-recruitment-wales"
+                target="_blank"
+                ><img
+                  alt="Feefo logo"
+                  border="0"
+                  class="img_fluid"
+                  src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
+                  title="See what our customers say about us"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-top-part">
+            <div class="footer-widget">
+              <h4>NRW</h4>
+              <ul class="ft-links">
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Candidates</a></li>
+              </ul>
+            </div>
+            <div class="footer-widget">
+              <h4>Llantrisant Branch</h4>
+              <div class="address">
+                <p>
+                  Unit 1 & 2 Magden Park <br />
+                  Llantrisant <br />
+                  Rhondda Cynon Taf <br />
+                  CF72 8XT <br />
+                  01443 230 222
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Swansea Branch</h4>
+              <div class="address">
+                <p>
+                  Canolfan Gorseinon Centre <br />
+                  Gorseinon <br />
+                  Swansea <br />
+                  SA4 4QN <br />
+                  01792 342 948
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget">
+              <h4>Cardiff Branch</h4>
+              <div class="address">
+                <p>
+                  3rd Floor <br />
+                  Castlebridge 2 <br />
+                  Cardiff <br />
+                  CF11 9AB <br />
+                  02920 670 832
+                </p>
+              </div>
+            </div>
+            <div class="footer-widget form">
+              <div class="integration-badge">
+                <a
+                  href="https://www.feefo.com/reviews/network-recruitment-wales"
+                  target="_blank"
+                  ><img
+                    alt="Feefo logo"
+                    border="0"
+                    class="img_fluid"
+                    src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
+                    title="See what our customers say about us"
+                /></a>
+              </div>
+              <h4>Can’t find what your looking for?</h4>
+              <form class="search relative">
+                <input type="text" class="w_full bg-white" />
+                <button class="absolute right-0" type="submit">Search</button>
+              </form>
+              <ul class="social_list footer flex items_center justify_end">
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://twitter.com/MPSHEALTHCARE"
+                    target="_blank"
+                  >
+                    <img
+                      class="vector"
+                      src="assets/img/twitter.svg"
+                      alt="twitter"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.facebook.com/MPSHEALTHCARE"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.linkedin.com/company/mps-healthcare/"
+                    target="_blank"
+                    ><img
+                      class="link"
+                      src="assets/img/linkedin.svg"
+                      alt="linkedin"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="inline_block"
+                    href="https://www.instagram.com/mpshealthcare/"
+                    target="_blank"
+                  >
+                    <img
+                      class="group-82"
+                      src="assets/img/instagram.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget email">
+              <h4>Email</h4>
+              <ul class="ft-links emails">
+                <li>
+                  <a
+                    href="mailto:enquiries@networkrecruitmentwales.co.uk"
+                    target="_blank"
+                  >
+                    enquiries@networkrecruitmentwales.co.uk
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-widget partners">
+              <h4>Partners</h4>
+              <ul class="ft-links terms flex items_center">
+                <li><a href="#">SET Recruitment</a></li>
+                <li><a href="#">MPS Recruitment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container mx_auto">
-        <div class="section-title text_center">
-          <h2 class="primary-title">Reviews</h2>
-        </div>
-        <div class="res-purpose">
-          <div id="feefo-service-review-carousel-widgetId" class="feefo-review-carousel-widget-service"></div>
-        </div>
-      </div>
-    </div>
-  </main>
+        <div class="ft-bottom-zone">
+          <ul
+            class="ft-links terms flex items_center inter-regular-normal-black-14px"
+          >
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Data Retention Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
 
-  <footer class="footer-area">
-    <div class="ft-top-zone relative">
-      <img class="ft-trans left absolute" src="assets/img/11-9.png" alt="11 9" />
-      <img class="ft-trans right absolute" src="assets/img/11-10.png" alt="11 10" />
-      <div class="container mx_auto relative z_1">
-        <a href="#" class="ft-logo inline-block">
-          <img class="untitled-design-20-3" src="assets/img/logo-white.svg" alt="logo" />
-        </a>
-        <div class="footer-top-part-two">
-          <div class="footer-widget">
-            <h4>NRW</h4>
-            <ul class="ft-links">
-              <li><a href="#"> About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Candidates</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Pages</h4>
-            <ul class="ft-links">
-              <li><a href="#">Site Map</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Data Retention Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget partners">
-            <h4>Partners</h4>
-            <ul class="ft-links terms flex items_center">
-              <li><a href="#">SET Recruitment</a></li>
-              <li><a href="#">MPS Recruitment</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget email">
-            <h4>Email</h4>
-            <ul class="ft-links emails">
-              <li>
-                <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
-                  enquiries@networkrecruitmentwales.co.uk
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Swansea Branch</h4>
-            <div class="address">
-              <p>
-                Canolfan Gorseinon Centre <br />
-                Gorseinon <br />
-                Swansea <br />
-                SA4 4QN <br />
-                01792 342 948
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget">
-            <h4>Llantrisant Branch</h4>
-            <div class="address">
-              <p>
-                Unit 1 & 2 Magden Park <br />
-                Llantrisant <br />
-                Rhondda Cynon Taf <br />
-                CF72 8XT <br />
-                01443 230 222
-              </p>
-            </div>
-          </div>
-
-          <div class="footer-widget">
-            <h4>Cardiff Branch</h4>
-            <div class="address">
-              <p>
-                3rd Floor <br />
-                Castlebridge 2 <br />
-                Cardiff <br />
-                CF11 9AB <br />
-                02920 670 832
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget form">
-            <h4>Follow Us</h4>
-            <ul class="social_list footer flex items_center">
-              <li>
-                <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-                  <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                    src="assets/img/facebook.svg" alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                    class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="integration-badge">
-            <a href="https://www.feefo.com/reviews/network-recruitment-wales" target="_blank"><img alt="Feefo logo"
-                border="0" class="img_fluid"
-                src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
-                title="See what our customers say about us" /></a>
-          </div>
-        </div>
-        <div class="footer-top-part">
-          <div class="footer-widget">
-            <h4>NRW</h4>
-            <ul class="ft-links">
-              <li><a href="#"> About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Candidates</a></li>
-            </ul>
-          </div>
-          <div class="footer-widget">
-            <h4>Llantrisant Branch</h4>
-            <div class="address">
-              <p>
-                Unit 1 & 2 Magden Park <br />
-                Llantrisant <br />
-                Rhondda Cynon Taf <br />
-                CF72 8XT <br />
-                01443 230 222
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget">
-            <h4>Swansea Branch</h4>
-            <div class="address">
-              <p>
-                Canolfan Gorseinon Centre <br />
-                Gorseinon <br />
-                Swansea <br />
-                SA4 4QN <br />
-                01792 342 948
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget">
-            <h4>Cardiff Branch</h4>
-            <div class="address">
-              <p>
-                3rd Floor <br />
-                Castlebridge 2 <br />
-                Cardiff <br />
-                CF11 9AB <br />
-                02920 670 832
-              </p>
-            </div>
-          </div>
-          <div class="footer-widget form">
-            <div class="integration-badge">
-              <a href="https://www.feefo.com/reviews/network-recruitment-wales" target="_blank"><img alt="Feefo logo"
-                  border="0" class="img_fluid"
-                  src="https://api.feefo.com/api/logo?merchantidentifier=network-recruitment-wales"
-                  title="See what our customers say about us" /></a>
-            </div>
-            <h4>Can’t find what your looking for?</h4>
-            <form class="search relative">
-              <input type="text" class="w_full bg-white" />
-              <button class="absolute right-0" type="submit">Search</button>
-            </form>
-            <ul class="social_list footer flex items_center justify_end">
-              <li>
-                <a class="inline_block" href="https://twitter.com/MPSHEALTHCARE" target="_blank">
-                  <img class="vector" src="assets/img/twitter.svg" alt="twitter" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.facebook.com/MPSHEALTHCARE" target="_blank"><img class="link"
-                    src="assets/img/facebook.svg" alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.linkedin.com/company/mps-healthcare/" target="_blank"><img
-                    class="link" src="assets/img/linkedin.svg" alt="linkedin" />
-                </a>
-              </li>
-              <li>
-                <a class="inline_block" href="https://www.instagram.com/mpshealthcare/" target="_blank">
-                  <img class="group-82" src="assets/img/instagram.svg" alt="instagram" />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-widget email">
-            <h4>Email</h4>
-            <ul class="ft-links emails">
-              <li>
-                <a href="mailto:enquiries@networkrecruitmentwales.co.uk" target="_blank">
-                  enquiries@networkrecruitmentwales.co.uk
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-widget partners">
-            <h4>Partners</h4>
-            <ul class="ft-links terms flex items_center">
-              <li><a href="#">SET Recruitment</a></li>
-              <li><a href="#">MPS Recruitment</a></li>
-            </ul>
+          <div class="copyright-text">
+            <p>
+              Copyright Network Recruitment Wales 2023 - Website by
+              <a href="#" class="inline_block">The Web Designer Cardiff</a>
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container mx_auto">
-      <div class="ft-bottom-zone">
-        <ul class="ft-links terms flex items_center inter-regular-normal-black-14px">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Data Retention Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Site Map</a></li>
-        </ul>
+    </footer>
+    <!-- </div> -->
 
-        <div class="copyright-text">
-          <p>
-            Copyright Network Recruitment Wales 2023 - Website by
-            <a href="#" class="inline_block">The Web Designer Cardiff</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- </div> -->
-
-  <!-- All JS Here -->
-  <!-- Plugin JS -->
-  <script type="text/javascript" src="https://api.feefo.com/api/javascript/network-recruitment-wales" async></script>
-  <script src="assets/js/vanilla-marquee.js"></script>
-  <script src="assets/js/counterUp.js"></script>
-  <!-- Main JS  -->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!-- All JS Here -->
+    <!-- Plugin JS -->
+    <script
+      type="text/javascript"
+      src="https://api.feefo.com/api/javascript/network-recruitment-wales"
+      async
+    ></script>
+    <script src="assets/js/vanilla-marquee.js"></script>
+    <script src="assets/js/counterUp.js"></script>
+    <!-- Main JS  -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
