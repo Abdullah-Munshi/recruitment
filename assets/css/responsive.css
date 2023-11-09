@@ -121,6 +121,9 @@
   .team-member {
     width: 270px !important;
   }
+  .hero-bottom-area.pb-80 {
+    padding-bottom: 65px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -234,6 +237,7 @@
   .type-2 .hero-content-inner {
     min-height: auto;
     padding-bottom: 40px;
+    padding-top: 25px;
   }
   .cmn-content p {
     font-size: 15px;
@@ -292,6 +296,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  .hero-bottom-area.pb-80 {
+    padding-bottom: 55px;
+  }
+  .ppl-area {
+    padding-top: 60px;
+  }
   .network-area {
     padding-top: 45px;
     padding-bottom: 60px;
@@ -590,9 +600,6 @@
     padding: 30px 0;
     padding-bottom: 50px;
   }
-  .hero-bottom-area.pb-80 {
-    padding-bottom: 5px;
-  }
   .sec-img .gv {
     width: 80px;
     height: 80px !important;
@@ -601,7 +608,7 @@
     bottom: 16px;
   }
   .hero-bottom-wrapper.contact {
-    margin-bottom: 5px;
+    margin-bottom: 45px;
   }
   .home .hero-content-inner {
     text-align: left;
